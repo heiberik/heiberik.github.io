@@ -1,0 +1,246 @@
+.innhold_startside {
+    margin: auto;
+    height: 90vh ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.forside_beholder {
+    display: block;
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    padding: 5vw;
+    position: relative;
+    background-color: rgb(25,27,31);
+}
+
+
+.forside_bildeOgStrek {
+    position:relative;
+    width: 100%;
+    margin:0 auto;
+    overflow:hidden;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+.forside_bildeOgStrek:before{
+    position:absolute;
+    color: orange;
+    content:"";
+    border-bottom: rgba(255, 165, 0, 0.1) .1rem solid;
+    left:-94px;
+    height:80px;
+    width:60%;
+    top:0;
+    z-index: 0;
+}
+
+.forside_bildeOgStrek:after{
+    position:absolute;
+    color: orange;
+    content:"";
+    border-bottom: rgba(255, 165, 0, 0.1) .1rem solid;
+    right:-94px;
+    top:0;
+    height:80px;
+    width:60%;
+    z-index: 0;
+}
+
+.forside_bilde {
+    border-top-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    display: block;
+    border: solid rgba(255, 165, 0, 0.4) .2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.forside_tittel::first-letter {
+    font-size: 3.5vw;
+}
+
+.forside_tittel {
+    text-align: right;
+    width: 75%;
+    color: rgba(255, 255, 255, 0.5);
+    font-variant:small-caps;
+    margin: auto;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-family: Georgia, serif;
+    font-size: 3vw;
+    line-height: 3vw;
+    text-shadow: 3px 3px black;
+}
+
+.mark-tittel {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 3.5vw;
+    padding: 0px;
+}
+
+.forside_tekst_div {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.forside_tekst {
+    text-align: left;
+    margin: auto;
+    margin: 0px;
+    max-width:54%;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Georgia, serif;
+    text-shadow: 2px 2px black;
+}
+
+.forside_tekst a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    background: inherit;
+    font-size: 22px;
+    padding: 3px;
+}
+
+mark {
+    background-color: inherit;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 28px;
+    padding: 3px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .forside_bakgrunn {
+        display: flex;
+        height: auto;
+        margin: auto;
+        padding: 0px;
+        position: relative;
+        background-image: none;
+    }
+
+    .forside_beholder {
+        padding: 0px;
+        margin: auto;
+        width: 100vw;
+    }
+
+    .forside_bildeOgStrek {
+        position:relative;
+        max-width:100%;
+        margin:0 auto;
+        overflow:hidden;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .forside_bilde {
+        border-top-left-radius: 70%;
+        border-bottom-right-radius: 70%;
+        height: 130px;
+        width: 130px;
+        margin: auto;
+        display: block;
+    }
+
+    .forside_bildeOgStrek:after{
+        height: 70px;
+    }
+
+
+    .forside_bildeOgStrek:before {
+        height: 70px;
+    }
+
+    .forside_tittel {
+        margin: auto;
+        line-height: 6vw;
+        font-size: 7vw;
+        width: 94%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto;
+        margin-right: 0px;
+    }
+
+    .forside_tittel::first-letter {
+        font-size: 8vw;
+    }
+
+    .mark-tittel {
+        font-size: 8vw;
+
+    }
+
+
+    .forside_tekst {
+        max-width: 540px;
+        width: 75vw;
+        margin-left: 0px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+    }
+
+    .forside_tekst a {
+        font-size: 20px;
+        padding: 2px;
+    }
+
+    mark {
+        background-color: inherit;
+        font-size: 24px;
+        padding: 2px;
+    }
+}

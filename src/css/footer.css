@@ -1,0 +1,95 @@
+.footer {
+    margin: auto;
+    padding: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(15,17,21);
+}
+
+.footer p {
+    word-spacing: normal;
+    margin: auto;
+    margin-left: 5px;
+    text-align: left;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgba(255,255,255, 0.5);
+}
+
+.boks {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.logoer_footer {
+    display: flex;
+    align-items: center;
+}
+
+.logoer_footer .fa {
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(5,7,11);
+    margin-left: 10px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    display: block;
+    align-content: center;
+    text-align: center;
+    transition: all 400ms;
+}
+
+.boks .fa {
+    margin: 0px;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    color: rgba(255,255,255, 0.4);
+    background: inherit;
+}
+
+.logoer_footer .fa:hover{
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .footer {
+        max-width: 100vw;
+        margin-top: 50px;
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .boks{
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    .logoer_footer .fa {
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    .boks .fa {
+        width: 20px;
+        height: 20px;
+        font-size: 15px;
+        padding: 2.5px;
+    }
+}
