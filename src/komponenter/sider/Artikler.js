@@ -142,7 +142,7 @@ class Artikler extends React.Component {
 
         			  	<ol className="image-list grid-view" ref={this.imageList}>
 
-        					<li onClick={() => {window.location.href = "/artikler/mine-yndlingsfakta-om-universet"}}>
+        					<li onClick={() => {window.location.href = "/mine-yndlingsfakta-om-universet"}}>
         			        	<figure>
         			          		<img src={spaceBilde} alt="space"></img>
         			          		<figcaption>
@@ -154,7 +154,7 @@ class Artikler extends React.Component {
         			        	</figure>
         			      	</li>
 
-        					<li onClick={() => {window.location.href = "/artikler/mine-yndlingsfakta-om-universet"}}>
+        					<li onClick={() => {window.location.href = "/mine-yndlingsfakta-om-universet"}}>
         			        	<figure>
         			          		<img src={spaceBilde} alt="space"></img>
         			          		<figcaption>
@@ -166,7 +166,7 @@ class Artikler extends React.Component {
         			        	</figure>
         			      	</li>
 
-        					<li onClick={() => {window.location.href = "/artikler/mine-yndlingsfakta-om-universet"}}>
+        					<li onClick={() => {window.location.href = "/mine-yndlingsfakta-om-universet"}}>
         						<figure>
         							<img src={spaceBilde} alt="space"></img>
         							<figcaption>

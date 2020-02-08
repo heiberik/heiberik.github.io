@@ -14,8 +14,7 @@ export default function Innhold(){
             <Route exact path='/om-meg' component={OmMeg}></Route>
             <Route exact path='/artikler' component={Artikler}></Route>
             <Route exact path='/prosjekter' component={Prosjekter}></Route>
-
-            <Route exact path='/artikler/mine-yndlingsfakta-om-universet' component={Yndlingsfakta}></Route>
+            <Route exact path='/mine-yndlingsfakta-om-universet' component={Yndlingsfakta}></Route>
         </Switch>
     )
 }
