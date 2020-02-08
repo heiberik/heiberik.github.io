@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../deler/Footer'
+import { NavLink } from 'react-router-dom';
 
 import spaceBilde from '../../bilder/space.jpg'
 import '../../css/tekstbokser.css'
@@ -142,41 +143,48 @@ class Artikler extends React.Component {
 
         			  	<ol className="image-list grid-view" ref={this.imageList}>
 
-        					<li onClick={() => {window.location.href = "/artikler/mine-yndlingsfakta-om-universet"}}>
-        			        	<figure>
-        			          		<img src={spaceBilde} alt="space"></img>
-        			          		<figcaption>
-        							  	<h2>Mine yndlingsfakta om universet</h2>
-        					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
-        								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
-        								om universet!</p>
-        			          		</figcaption>
-        			        	</figure>
+        					<li>
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+            			        	<figure>
+            			          		<img src={spaceBilde} alt="space"></img>
+            			          		<figcaption>
+            							  	<h2>Mine yndlingsfakta om universet</h2>
+            					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
+            								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
+            								om universet!</p>
+            			          		</figcaption>
+            			        	</figure>
+                                </NavLink>
         			      	</li>
 
-        					<li onClick={() => {window.location.href = "/artikler/mine-yndlingsfakta-om-universet"}}>
-        			        	<figure>
-        			          		<img src={spaceBilde} alt="space"></img>
-        			          		<figcaption>
-        							  	<h2>Mine yndlingsfakta om universet</h2>
-        					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
-        								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
-        								om universet!</p>
-        			          		</figcaption>
-        			        	</figure>
+                            <li>
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+            			        	<figure>
+            			          		<img src={spaceBilde} alt="space"></img>
+            			          		<figcaption>
+            							  	<h2>Mine yndlingsfakta om universet</h2>
+            					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
+            								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
+            								om universet!</p>
+            			          		</figcaption>
+            			        	</figure>
+                                </NavLink>
         			      	</li>
 
-        					<li onClick={() => {window.location.href = "/artikler/mine-yndlingsfakta-om-universet"}}>
-        						<figure>
-        							<img src={spaceBilde} alt="space"></img>
-        							<figcaption>
-        								<h2>Mine yndlingsfakta om universet</h2>
-        								<p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
-        								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
-        								om universet!</p>
-        							</figcaption>
-        						</figure>
-        					</li>
+                            <li>
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+            			        	<figure>
+            			          		<img src={spaceBilde} alt="space"></img>
+            			          		<figcaption>
+            							  	<h2>Mine yndlingsfakta om universet</h2>
+            					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
+            								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
+            								om universet!</p>
+            			          		</figcaption>
+            			        	</figure>
+                                </NavLink>
+        			      	</li>
+                            
         			    </ol>
         			  </div>
         			</section>

@@ -12,14 +12,14 @@ class Yndlingsfakta extends React.Component {
 
         return (
             <>
-            <div class="mal_innhold">
-                <section class="innhold">
-                    <article class="tekstBoks">
+            <div className="mal_innhold">
+                <section className="innhold">
+                    <article className="tekstBoks">
 
-                        <h1 class="artikkel_overskrift">Mine yndlingsfakta om universet</h1>
+                        <h1 className="artikkel_overskrift">Mine yndlingsfakta om universet</h1>
                         <br></br><br></br>
 
-                        <img class="artikkelbilde_topp" src={bildeTopp} alt="universet"></img>
+                        <img className="artikkelbilde_topp" src={bildeTopp} alt="universet"></img>
                         <p>
                             Før jeg har skrevet et eneste ord innser jeg allerede at denne teksten
                             blir rimelig autismus maximus. Mine yndlingsfakta om universet av Henrik,
@@ -35,10 +35,10 @@ class Yndlingsfakta extends React.Component {
                             Men, før vi setter i gang - hva er egentlig universet? Wikipedia definerer
                             universet som alt som eksisterer av tid og rom, og innholdet i rommet, herunder
                             materie og stråling. Det inkluderer planeter, måner, dvergplaneter, stjerner,
-                            galakser, intergalaktisk rom, og all materie og energi.<sup><a class="link_artikkel" href="#fn1" id="ref1">1</a></sup>
+                            galakser, intergalaktisk rom, og all materie og energi.<sup><a className="link_artikkel" href="#fn1" id="ref1">1</a></sup>
                             <br></br><br></br>
 
-                            Universet er alt som er og alt som har vært.<sup><a class="link_artikkel" href="#fn2" id="ref2">2</a></sup>
+                            Universet er alt som er og alt som har vært.<sup><a className="link_artikkel" href="#fn2" id="ref2">2</a></sup>
                             <br></br><br></br>
 
                             Uavhengig av om du tror på en kuplete jord, julenissen eller en syv dagers
@@ -75,7 +75,7 @@ class Yndlingsfakta extends React.Component {
 
 
                         <br></br>
-                        <div class="space_br"></div>
+                        <div className="space_br"></div>
                         <h2>Størrelse</h2>
                         <p>
                             La oss starte med litt snacks om universets størrelse. Bare det observerbare
@@ -93,7 +93,7 @@ class Yndlingsfakta extends React.Component {
                             nabostjerne?
                             <br></br><br></br>
 
-                            Over 6000 år!<sup><a class="link_artikkel" href="#fn3" id="ref3">3</a></sup>
+                            Over 6000 år!<sup><a className="link_artikkel" href="#fn3" id="ref3">3</a></sup>
                             <br></br><br></br>
 
                             Går vi 6000 år tilbake i tid var vi fremdeles i steinalderen. Du kan se for deg
@@ -116,9 +116,9 @@ class Yndlingsfakta extends React.Component {
                         </p>
 
                         <br></br>
-                        <div class="artikkel_bilderamme">
-                            <img src={hubble1} alt="hubble1" class="artikkelbilde"></img>
-                            <p class="bildetekst"> NASA; ESA; and Z. Levay, STScI; Moon Image Credit: T. Rector; I. Dell'Antonio/NOAO/AURA/NSF</p>
+                        <div className="artikkel_bilderamme">
+                            <img src={hubble1} alt="hubble1" className="artikkelbilde"></img>
+                            <p className="bildetekst"> NASA; ESA; and Z. Levay, STScI; Moon Image Credit: T. Rector; I. Dell'Antonio/NOAO/AURA/NSF</p>
                         </div>
 
                         <br></br><br></br><br></br>
@@ -131,13 +131,13 @@ class Yndlingsfakta extends React.Component {
                         </p>
 
                         <br></br>
-                        <div class="artikkel_bilderamme">
-                            <img src={hubble2} alt="hubble1"  class="artikkelbilde"></img>
-                            <p class="bildetekst"> NASA; ESA; G. Illingworth, D. Magee, and P. Oesch, University of California, Santa Cruz; R. Bouwens, Leiden University; and the HUDF09 Team</p>
+                        <div className="artikkel_bilderamme">
+                            <img src={hubble2} alt="hubble1"  className="artikkelbilde"></img>
+                            <p className="bildetekst"> NASA; ESA; G. Illingworth, D. Magee, and P. Oesch, University of California, Santa Cruz; R. Bouwens, Leiden University; and the HUDF09 Team</p>
                         </div>
                         <br></br><br></br><br></br>
                         <p>
-                            Den tilsynelatende tomme delen av universet viste seg å inneholde rundt 10 000 galakser!<sup><a class="link_artikkel" href="#fn4" id="ref4">4</a></sup>
+                            Den tilsynelatende tomme delen av universet viste seg å inneholde rundt 10 000 galakser!<sup><a className="link_artikkel" href="#fn4" id="ref4">4</a></sup>
                             GALAKSER! Melkeveien, vår egen galakse, inneholder omkring 300 milliarder stjerner.
                             Som allerede nevnt er avstanden mellom hver enkelt stjerne ubegripelig
                             store!
@@ -150,7 +150,7 @@ class Yndlingsfakta extends React.Component {
                         </p>
 
                         <br></br>
-                        <div class="space_br"></div>
+                        <div className="space_br"></div>
                         <h2>Istid</h2>
                         <p>
                             Klima - et betent og spennende tema i vår tidsalder. Jeg skal trå varsomt og egentlig
@@ -171,7 +171,7 @@ class Yndlingsfakta extends React.Component {
                             <br></br><br></br>
 
                             Varmen på jorden avhenger av to ting - varmeoverføring fra solen og varmetap fra jorden
-                            til verdensrommet.<sup><a class="link_artikkel" href="#fn5" id="ref5">5</a></sup>
+                            til verdensrommet.<sup><a className="link_artikkel" href="#fn5" id="ref5">5</a></sup>
                             Varmetap til verdensrommet reguleres av atmosfærens innhold av drivhusgasser,
                             hvor karbondioksid er den dominerende. Varmeoverføringen til jorden bestemmes
                             naturlig nok av avstanden mellom jorden og solen, som igjen avhenger av jordens
@@ -187,12 +187,12 @@ class Yndlingsfakta extends React.Component {
                             Jupiter har en masse som er omtrent 320 ganger større enn jordklodens masse.
                             Den har derfor en enorm gravitasjonskraft. Ved å trekke jordkloden mot seg vil avstanden
                             vår til solen øke og varmeoverføringen avtar. Det blir derfor kaldere på kloden og
-                            forholdene legges til rette for en ny istid.<sup><a class="link_artikkel" href="#fn6" id="ref6">6</a></sup>
+                            forholdene legges til rette for en ny istid.<sup><a className="link_artikkel" href="#fn6" id="ref6">6</a></sup>
                             <br></br><br></br>
                         </p>
 
                         <br></br>
-                        <div class="space_br"></div>
+                        <div className="space_br"></div>
                         <h2>Kollisjonskurs</h2>
                         <p>
                             Samtidig som du leser dette er det faktisk en annen galakse i universet – Andromeda -
@@ -200,7 +200,7 @@ class Yndlingsfakta extends React.Component {
                             kommer de to galaksene til å kollidere. Heldigvis for oss er dette fremdeles over
                             4000 milliarder år frem i tid. På dette tidspunktet er jorden for lengst blitt
                             ubeboelig og solen er i ferd med å gå tom for hydrogen å
-                            brenne.<sup><a class="link_artikkel" href="#fn7" id="ref7">7</a></sup>
+                            brenne.<sup><a className="link_artikkel" href="#fn7" id="ref7">7</a></sup>
                             <br></br><br></br>
 
                             En morsom detalj er likevel å hente i denne allerede så morsomme fremtidige hendelsen.
@@ -211,12 +211,12 @@ class Yndlingsfakta extends React.Component {
                             Faktisk kommer det ikke
                             til å påvirke solsystemet vårt i det hele tatt annet enn at vi blir tildelt en ny
                             bane rundt det nye galaktiske senteret. Igjen er det naturligvis de enorme avstandene
-                            mellom stjernene som er forklaringen.<sup><a class="link_artikkel" href="#fn8" id="ref8">8</a></sup>
+                            mellom stjernene som er forklaringen.<sup><a className="link_artikkel" href="#fn8" id="ref8">8</a></sup>
                             <br></br><br></br>
                         </p>
 
                         <br></br>
-                        <div class="space_br"></div>
+                        <div className="space_br"></div>
                         <h2>Regn</h2>
                         <p>
                             Den siste yndlingsfaktaen i arsenalet er relativt fersk og er hentet fra den britiske
@@ -243,9 +243,9 @@ class Yndlingsfakta extends React.Component {
                         </p>
 
                         <br></br>
-                        <div class="space_br"></div>
+                        <div className="space_br"></div>
                         <h2>Ha det</h2>
-                        <p class="siste_p">
+                        <p className="siste_p">
                             Det var det! Mine yndlingsfakta om universet. Uansett om du trenger å gjenopplives
                             eller roe ned alle dine erigerte kroppsdeler så takker jeg deg for leserviljen.
                             Dette var  første forsøk på å publisere en artikkel på min selvsnekrede hjemmeside.
@@ -267,7 +267,7 @@ class Yndlingsfakta extends React.Component {
 
 
                         <br></br>
-                        <div class="sup_br">
+                        <div className="sup_br">
                             <sup id="fn1">1. https://no.wikipedia.org/wiki/Universet <a href="#ref1" title="Hopp tilbake til fotnote 1."> &#8617;</a></sup> <br></br>
                             <sup id="fn2">2. Carl Sagan, Cosmos (1980), p. 4 <a href="#ref2" title="Hopp tilbake til fotnote 2."> &#8617;</a></sup> <br></br>
                             <sup id="fn3">3. https://www.technologyreview.com/s/611485/this-is-how-many-people-wed-have-to-send-to-proxima-centauri-to-make-sure-someone-actually/ <a href="#ref3" title="Hopp tilbake til fotnote 3."> &#8617;</a></sup> <br></br>
