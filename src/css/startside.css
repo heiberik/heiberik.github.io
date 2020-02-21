@@ -121,90 +121,39 @@
 
 @media screen and (max-width: 768px) {
 
-    .forside_bakgrunn {
-        display: flex;
-        height: auto;
-        margin: auto;
-        padding: 0px;
-        position: relative;
-        background-image: none;
-    }
-
     .forside_beholder {
         padding: 0px;
         margin: auto;
         width: 100vw;
     }
 
-    .forside_bildeOgStrek {
-        position:relative;
-        max-width:100%;
-        margin:0 auto;
-        overflow:hidden;
-        margin-top: 60px;
-        margin-bottom: 50px;
-    }
-
-    .forside_bilde {
-        border-top-left-radius: 70%;
-        border-bottom-right-radius: 70%;
-        height: 130px;
-        width: 130px;
-        margin: auto;
-        display: block;
-    }
-
-    .forside_bildeOgStrek:after{
-        height: 70px;
-    }
-
-
-    .forside_bildeOgStrek:before {
-        height: 70px;
+    .startside_logo {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .forside_tittel {
         margin: auto;
-        line-height: 6vw;
-        font-size: 7vw;
-        width: 94%;
-        padding-left: 10px;
-        padding-right: 10px;
+        font-size: 40px;
+        line-height: 50px;
+        width: 100%;
         margin: auto;
-        margin-right: 0px;
     }
 
-    .forside_tittel::first-letter {
-        font-size: 8vw;
+    .knappBeholder {
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center
     }
 
-    .mark-tittel {
-        font-size: 8vw;
-
-    }
-
-
-    .forside_tekst {
-        max-width: 540px;
-        width: 75vw;
-        margin-left: 0px;
-        font-size: 16px;
-        line-height: 20px;
-        margin-top: 0px;
-        padding-top: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: left;
-    }
-
-    .forside_tekst a {
-        font-size: 20px;
-        padding: 2px;
-    }
-
-    mark {
-        background-color: inherit;
-        font-size: 24px;
-        padding: 2px;
+    .forside_knapp {
+        width: 300px;
+        margin: 8px;
+        border-bottom-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+        border-top-right-radius: 0%;
+        border-top-left-radius: 0%;
     }
 }

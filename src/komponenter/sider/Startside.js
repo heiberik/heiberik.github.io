@@ -4,9 +4,6 @@ import '../../css/startside.css'
 
 const Startside = () => {
 
-    const handleKlikk = (event) => {
-
-    }
 
     return (
         <div className="innhold_startside">
