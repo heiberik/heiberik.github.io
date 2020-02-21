@@ -1,5 +1,5 @@
 {
-    "name": "react-hjemmeside",
+    "name": "Hjemmeside",
     "version": "0.1.0",
     "private": true,
     "homepage": "http://heiberik.github.io/",
@@ -27,7 +27,7 @@
     "eslintConfig": {
         "extends": "react-app"
     },
-    
+
     "browserslist": {
         "production": [
             ">0.2%",
