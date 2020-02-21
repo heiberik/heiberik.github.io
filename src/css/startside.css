@@ -43,113 +43,77 @@
     margin: auto;
     padding: 5vw;
     position: relative;
-    background-color: rgb(25,27,31);
 }
 
-
-.forside_bildeOgStrek {
-    position:relative;
-    width: 100%;
-    margin:0 auto;
-    overflow:hidden;
-    margin-top: 80px;
-    margin-bottom: 90px;
-}
-
-.forside_bildeOgStrek:before{
-    position:absolute;
-    color: orange;
-    content:"";
-    border-bottom: rgba(255, 165, 0, 0.1) .1rem solid;
-    left:-94px;
-    height:80px;
-    width:60%;
-    top:0;
-    z-index: 0;
-}
-
-.forside_bildeOgStrek:after{
-    position:absolute;
-    color: orange;
-    content:"";
-    border-bottom: rgba(255, 165, 0, 0.1) .1rem solid;
-    right:-94px;
-    top:0;
-    height:80px;
-    width:60%;
-    z-index: 0;
-}
-
-.forside_bilde {
-    border-top-left-radius: 70%;
-    border-bottom-right-radius: 70%;
-    height: 150px;
-    width: 150px;
+.startside_logo {
+    border: solid rgb(35,37,41) 0.2rem;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
     margin: auto;
-    display: block;
-    border: solid rgba(255, 165, 0, 0.4) .2rem;
-    position: relative;
-    z-index: 2;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #151721, #353741);
+    box-shadow: 0px 0px 30px 2px black;
 }
 
-.forside_tittel::first-letter {
-    font-size: 3.5vw;
+.startside_logo p {
+    font-size: 92px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #151721;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.7);
 }
 
 .forside_tittel {
-    text-align: right;
-    width: 75%;
-    color: rgba(255, 255, 255, 0.5);
-    font-variant:small-caps;
+    text-align: center;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.7);
     margin: auto;
     margin-right: 0px;
     margin-top: 0px;
-    font-family: Georgia, serif;
-    font-size: 3vw;
-    line-height: 3vw;
-    text-shadow: 3px 3px black;
-}
-
-.mark-tittel {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 3.5vw;
-    padding: 0px;
-}
-
-.forside_tekst_div {
-    width: 100%;
-    margin: auto;
-    margin-bottom: 0px;
-}
-
-.forside_tekst {
-    text-align: left;
-    margin: auto;
-    margin: 0px;
-    max-width:54%;
-    letter-spacing: 0px;
-    word-spacing: 0px;
+    font-family: cursive;
+    font-size: 64px;
+    line-height: 80px;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Georgia, serif;
-    text-shadow: 2px 2px black;
+    text-shadow: 4px 4px rgba(255, 255, 255, 0.2);
 }
 
-.forside_tekst a {
+
+.forside_knapp {
+    background: linear-gradient(#252731, #151721);
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
+    border: solid #2b2b2b 0.1rem;
+    border-top: solid gold 0.1rem;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    font-weight: bold;
+    padding: 15px;
+    padding-bottom: 20px;
+    width: 150px;
+    margin: 20px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 25px 2px black;
     text-decoration: none;
-    background: inherit;
-    font-size: 22px;
-    padding: 3px;
+    text-align: center;
 }
 
-mark {
-    background-color: inherit;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 28px;
-    padding: 3px;
+.forside_knapp:hover {
+    color: rgba(255, 255, 255, 1);
+    border-top: solid orange 0.1rem;
+}
+
+.knappBeholder {
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center
 }
 
 
