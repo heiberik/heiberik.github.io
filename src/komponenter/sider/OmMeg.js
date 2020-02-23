@@ -5,8 +5,7 @@ import profilBilde from '../../bilder/profil.jfif'
 import '../../css/tekstbokser.css'
 import '../../css/timeline.css'
 
-
-export default function OmMeg(){
+const OmMeg = () => {
     return (
         <>
             <div className="mal_innhold">
@@ -28,7 +27,7 @@ export default function OmMeg(){
     						Som for så mange andre var
     	                    nok gateway-druget lego. Så hadde jeg den obligatoriske fasen med å ødelegge
     	                    samtlige elektriske leker for å sette dem sammen på nye måter.
-    	                    Treetasjes trehytte var neste steg på veien mot storhet. 
+    	                    Treetasjes trehytte var neste steg på veien mot storhet.
     	                    <br /><br />
     					</p>
 
@@ -206,3 +205,5 @@ export default function OmMeg(){
         </>
     )
 }
+
+export default OmMeg
