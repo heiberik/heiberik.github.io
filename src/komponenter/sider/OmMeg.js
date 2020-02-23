@@ -28,9 +28,7 @@ export default function OmMeg(){
     						Som for så mange andre var
     	                    nok gateway-druget lego. Så hadde jeg den obligatoriske fasen med å ødelegge
     	                    samtlige elektriske leker for å sette dem sammen på nye måter.
-    	                    Treetasjes trehytte var neste steg på veien mot storhet. Det var under
-    	                    dette arbeidet jeg i tidlig alder lærte at katapult spikret fast i tak fort
-    	                    reduserer trehytter med én etasje.
+    	                    Treetasjes trehytte var neste steg på veien mot storhet. 
     	                    <br /><br />
     					</p>
 

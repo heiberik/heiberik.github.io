@@ -1,16 +1,3 @@
-.innhold_startside {
-    margin: auto;
-    height: 90vh ;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;
-}
-
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -36,84 +23,63 @@
 }
 
 
-.forside_beholder {
-    display: block;
-    width: 70vw;
-    height: auto;
+.forside {
+    background: url("../bilder/bak7.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+    -moz-filter: brightness(70%);
+    -o-filter: brightness(70%);
+    -ms-filter: brightness(70%);
+    position: absolute;
+    z-index: -1;
+
+    top: 0;
+    height: 100%;
+    width: 100%;
     margin: auto;
-    padding: 5vw;
-    position: relative;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
-.startside_logo {
-    border: solid rgb(35,37,41) 0.2rem;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin: auto;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to left, #151721, #353741);
-    box-shadow: 0px 0px 30px 2px black;
+
+.forside_tekst {
+    position: absolute;
+    bottom: 20vh;
+    left: 5vw;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
-.startside_logo p {
-    font-size: 92px;
-    font-weight: 700;
-    font-family: cursive;
-    color: #151721;
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.7);
+.forside_tekst p {
+    color: rgba(255, 165, 0, 0.9);
+    font-size: 2.0rem;
+    font-weight: 500;
+    text-shadow: 2px 2px black;
+    line-height: 3.0rem;
 }
 
 .forside_tittel {
-    text-align: center;
-    width: 100%;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 2px 2px black;
+    text-align: left;
     margin: auto;
     margin-right: 0px;
     margin-top: 0px;
-    font-family: cursive;
-    font-size: 64px;
-    line-height: 80px;
+    font-size: 3.0rem;
+    line-height: 3.0rem;
     font-weight: 500;
-    text-shadow: 4px 4px rgba(255, 255, 255, 0.2);
-}
-
-
-.forside_knapp {
-    background: linear-gradient(#252731, #151721);
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.8);
-    border: solid #2b2b2b 0.1rem;
-    border-top: solid gold 0.1rem;
-    border-bottom-right-radius: 40%;
-    border-bottom-left-radius: 40%;
-    border-top-right-radius: 5%;
-    border-top-left-radius: 5%;
-    font-weight: bold;
-    padding: 15px;
-    padding-bottom: 20px;
-    width: 150px;
-    margin: 20px;
-    transition: 0.5s;
-    box-shadow: 0px 0px 25px 2px black;
-    text-decoration: none;
-    text-align: center;
-}
-
-.forside_knapp:hover {
-    color: rgba(255, 255, 255, 1);
-    border-top: solid orange 0.1rem;
-}
-
-.knappBeholder {
-    display: flex;
-    margin: auto;
-    margin-top: 15px;
-    justify-content: center;
-    align-items: center
 }
 
 
@@ -121,39 +87,23 @@
 
 @media screen and (max-width: 768px) {
 
-    .forside_beholder {
-        padding: 0px;
-        margin: auto;
-        width: 100vw;
+
+    .forside_tekst {
+        bottom: 10vh;
+        left: 2vw;
     }
 
-    .startside_logo {
-        margin-top: 30px;
-        margin-bottom: 30px;
+    .forside_tekst p {
+        color: rgba(255, 165, 0, 0.9);
+        font-size: 2.0rem;
+        font-weight: 500;
+        text-shadow: 2px 2px black;
+        line-height: 2.1rem;
     }
 
     .forside_tittel {
-        margin: auto;
-        font-size: 40px;
-        line-height: 50px;
-        width: 100%;
-        margin: auto;
-    }
 
-    .knappBeholder {
-        flex-direction: column;
-        margin: auto;
-        margin-top: 20px;
-        justify-content: center;
-        align-items: center
-    }
-
-    .forside_knapp {
-        width: 300px;
-        margin: 8px;
-        border-bottom-right-radius: 20%;
-        border-bottom-left-radius: 20%;
-        border-top-right-radius: 0%;
-        border-top-left-radius: 0%;
+        font-size: 2.0rem;
+        line-height: 2.1rem;
     }
 }
