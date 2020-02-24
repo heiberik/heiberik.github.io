@@ -18,68 +18,78 @@ const OmMeg = () => {
     					<p>
     	                    Mitt navn er Henrik. I skrivende stund er jeg en 27 år gammel informatikkstudent
     	                    ved Universitetet i Oslo. Der går jeg på linjen programmering og systemarkitektur.
-                            Jeg er utdannet jurist ved samme universitetet. Til sommeren 2020 avslutter jeg
-                            åtte år med studier
+                            Jeg er utdannet jurist ved samme universitetet. Sommeren 2020 avslutter jeg
+                            åtte gode år med studier. Denne selvpromoterende hjemmesiden er i den anledning et
+                            verktøy for å ta steget over i neste fase av livet.
                             <br /><br />
 
-                            På fritiden liker jeg å trene, høre på musikk, bedrive GAMEING og
-    						lære nye ting om stort og smått.
-    						Jeg har alltid vært glad i å bygge og sette sammen ulike duppeditter.
+                            Jeg liker å tro at det er mer ved meg enn en master i juss og en bachelor i informatikk.
+                            På fritiden liker jeg blant annet å trene, høre på musikk, bedrive gameing og
+    						lære nye ting om stort og smått. Denne websiden er derfor like mye et resultat av en
+                            nysgjerrighets- og skapertrang, som den er et rop om hjelp.
     						<br /><br />
 
+                            Jeg anser meg selv for å være en kontrollert, rolig og fornuftig type med voldsomme sinneproblemer.
+    						Jeg er ikke redd for å ta kontroll for å få ting i gang og trives stort sett
+                            med å snakke foran mennesker. Jeg har en enorm arbeidskapasitet, stor læringsvilje
+    						og motiveres av utfordringer. Jeg er en positivt innstilt person som sprer mye
+                            latter og glede når jeg blir riktig komfortabel.
+                            <br /><br />
 
+                            Dersom du allerede er lei av å lese om meg og mitt liv kan du eventuelt scrolle
+                            rett ned til tidslinjen som gir en god oppsummering av Henrik Heibergs høydepunkter livet.
+                            <br /><br />
     					</p>
 
 
-
     					<div className="space_br"></div>
-    					<h2> Master i rettsvitenskap! </h2>
+    					<h2> Master i rettsvitenskap. </h2>
     					<p>
 
-    	                    Til tross for de overnevnte interesser endte jeg opp på jusstudiet etter videregående. Jeg hadde ingen
-    	                    anelse om hva jeg ønsket å bli og mulighetene var kanskje for mange.
-    	                    Jeg sover heller ikke nevneverdig dårlig av å innrømme at status og prestisje var et vektig argument i valg av studie
-    	                    for 19-år gamle Henrik.
+    	                    Til tross for de overnevnte interesser valgte jeg jusstudiet etter videregående.
+                            Jeg hadde ingen anelse om hva jeg ønsket å gjøre og mulighetene var kanskje for mange.
+    	                    Jeg sover heller ikke nevneverdig dårlig av å innrømme at status og prestisje var et
+                            vektig argument i valg av studie for 19-år gamle Henrik.
     	                    <br /><br />
 
-    	                    Likevel var det nok alltid noe som trakk meg i retning av innovasjon
-    	                    og noe mindre abstrakt enn jussen under mine rettsvitenskapelige studier.
-    	                    Valg av opphavsrett, patentrett, varemerkerett og
-    	                    markedsrett som valgfag var vel heller ikke med på å skjule denne lengselen.
+    	                    Det var nok alltid noe som trakk meg i retning av innovasjon og noe mindre abstrakt enn
+                            jussen under mine rettsvitenskapelige studier. Når jeg fikk sjansen falt valget på
+                            immaterialrettslige fag som opphavsrett, patentrett og varemerkerett.
     						<br /><br />
 
-    	                    Et oppsving i den juridiske interessen kom imidlertid med et praksisopphold hos advokatfirmaet Tveter og Kløvfjell i Oslo.
-    	                    Her jobbet jeg i halvannet år med ekte juridiske problemstillinger for første gang. Firmaet var relativt lite.
-    	                    Jeg fikk derfor mye ansvar og interessante arbeidsoppgaver. Et høydepunkt må ha vært da jeg fikk utforme og sende inn
-    	                    min egen stevning til Oslo tingrett. Riktignok på noen andres vegne.
+    	                    Et oppsving i den juridiske interessen kom imidlertid med et praksisopphold hos advokatfirmaet
+                            Tveter og Kløvfjell i Oslo. Der jobbet jeg i halvannet år. For første gang
+                            fikk jeg bryne meg på ekte juridiske problemstillinger. Advokatfirmaet var relativt lite.
+                            Jeg fikk derfor mye ansvar og interessante arbeidsoppgaver. Jeg var blant annet med på å skrive stevninger,
+                            tilsvar, omgjøringsbegjæringer, prosesskriv og søknader av ulike slag. Jeg hadde kontakt med klienter
+                            og etater. Firmaet engasjerte seg hovedakelig i saker innen strafferett, utlendingsrett og velferdsrett.
     						<br /><br />
 
-    						Julen 2017 leverte jeg masteroppgaven min i rettsvitenskap ved UiO. Det er jeg stolt av.
+    						Julen 2017 leverte jeg masteroppgaven min i rettsvitenskap ved Universitetet i Oslo.
     	                    <br /><br />
     					</p>
 
+
     					<div className="space_br"></div>
-    					<h2> Bachelor i informatikk! </h2>
+    					<h2> Bachelor i informatikk. </h2>
 
     					<p>
-    	                    I januar 2018 startet jeg på en bachelor i programmering og systemarkitektur ved UiO. Jeg ville rett og slett prøve noe helt nytt og følte
-    	                    meg dratt mot noe mer skapende og praktisk.
-    	                    Det er nok et av de bedre valgene jeg har tatt. Jeg tror selv 19 år gamle status-Henrik kan nikke anerkjennende til retningen
-    	                    som nå stakes ut.
+    	                    I januar 2018 startet jeg rett på en bachelor i programmering og systemarkitektur ved UiO.
+    	                    Det er nok et av de bedre valgene jeg har tatt. Jeg tror selv 19 år gamle status-Henrik kan
+                            nikke anerkjennende til retningen som nå stakes ut.
     						<br /><br />
 
     						I løpet av de to årene jeg har tilbragt på Institutt for Informatikk har jeg programmert
-    	                    i Python, Java, Kotlin, C og Scheme. Jeg har jobbet med postgreSQL og databaser. Jeg har lært objektorientert programmering,
-    	                    funksjonell programmering, algoritmer og datastrukturer. Jeg har dyppet hodet ned i en verden av informasjonssikkerhet,
-    	                    operativsystemer og datakommunikasjon. Jeg har jobbet i team og utviklet en Androidapp for luftkvalitet i Norge. I den forbindelse
-    	                    har jeg lært om programvareutvikling og praktisert smidige utviklingsmetoder.
-    						<br /><br />
+    	                    i Python, Java, Kotlin, C og Scheme. Jeg har jobbet med postgreSQL og databaser.
+                            Jeg har lært objektorientert programmering, funksjonell programmering, algoritmer og datastrukturer.
+                            <br /><br />
 
-    						I tillegg har jeg hatt den store gleden av å være
-    	                    gruppelærer i tre semestre og i to ulike fag på universitetet. Det er stas. Det har vært veldig lærerikt og utfordrende.
+                            Jeg har dyppet hodet ned i en verden av informasjonssikkerhet, operativsystemer og datakommunikasjon.
+                            Jeg har jobbet i team og utviklet en Androidapp for luftkvalitet i Norge. I den forbindelse
+    	                    har jeg lært om programvareutvikling og praktisert smidige utviklingsmetoder. I tillegg har jeg hatt
+                            den store gleden av å være gruppelærer i tre semestre og i to ulike fag på
+                            universitetet. Det har vært veldig stas, lærerikt og utfordrende.
     						<br /><br />
-
-    						Under følger en liten godbit av en tidslinje for de som måtte ønske en mer grafisk fremstilling av min vei så langt.
     					</p>
     				</div>
     			</section>
@@ -96,7 +106,7 @@ const OmMeg = () => {
     			      		<p className="p_timeline">
     	                        Gruppelærer i følgende semester/fag: <br />
     							v20 - IN1010 | Objektorientert programmering<br />
-    	                        h19 - IN2019 | Algoritmer og datastrukturer<br />
+    	                        h19 - IN2010 | Algoritmer og datastrukturer<br />
     	                        v19 - IN1010 | Objektorientert programmering<br />
     	                    </p>
     			    	</div>
@@ -168,35 +178,19 @@ const OmMeg = () => {
     			<section className="innhold">
     				<div className="tekstBoks">
 
-    					<h2> Mine nøkkelegenskaper? </h2>
-    	                <p>
-    	                    Jeg anser meg selv for å være en kontrollert, rolig og fornuftig type med
-    						voldsomme sinneproblemer.
-    						Jeg er ikke redd for å ta litt kontroll for å få ting i gang
-    						og trives stort sett med å snakke foran mennesker.
-    						Jeg har en enorm arbeidskapasitet, stor læringsvilje
-    						og motiveres av utfordringer.
-    						Jeg er en positivt innstilt person som kan spre mye glede og latter når
-    						jeg blir riktig komfortabel.
-    						<br /><br />
-    					</p>
-
     					<div className="space_br"></div>
     	                <h2> Veien videre? </h2>
     					<p>
-    						Nå har jeg et halvt år igjen av bacheloren.
-    						Etter det er veien åpen og uviss. Er det en ting som er sikkert så er det at
+    						Til sommeren 2020 er jeg ferdig med bacheloren i informatikk. Etter det er veien åpen og uviss.
+                            Er det en ting som er sikkert så er det at
     						jeg ønsker å jobbe med programmering og utvikling i en eller annen form.
     						Jeg trives såpass godt i informatikkens verden at jeg neppe kommer til å klare
     						å legge det bort til fordel for rettsvitenskapen.
-    						Forhåpentligvis får jeg jobbet med både utvikling og juss!
+    						Er jeg riktig heldig får jeg kanskje jobbet med både informatikk og juss!
     					</p>
     					<div className="space_br"></div>
     				</div>
     			</section>
-
-
-
 
     		</div>
 
