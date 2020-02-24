@@ -168,7 +168,7 @@ a {
 }
 
 .toolbar input[type="search"]::placeholder {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 0.9rem;
 }
 
@@ -177,13 +177,13 @@ a {
     font-size: 0.8rem;
     margin: auto;
     margin-left: 15px;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .toolbar .counter span {
     font-size: 0.8rem;
     margin: auto;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.8);
     font-family: sans-serif;
     font-weight: 500;
 }
@@ -199,20 +199,20 @@ a {
 
 .view-options button {
     border-bottom: 2px solid transparent;
-    border: solid 0.1rem rgba(255, 255, 255, 0.2);
+    border: solid 0.1rem rgba(255, 255, 255, 0.1);
     border-radius: 15%;
     background: inherit;
 }
 
 .view-options .fa {
-    font-size: 22px;
+    font-size: 18px;
     padding: 8px;
     padding-bottom: 6px;
-    color: white;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .view-options .active button {
-    border-color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(255, 255, 255, 0.5);
     background: inherit;
 }
 
@@ -249,7 +249,7 @@ a {
     text-align: left;
     padding-left: 0px;
     word-break: keep-all;
-    color: rgba(255,165,0,0.9);
+    color: rgba(255,255,255,0.9);
 }
 
 
