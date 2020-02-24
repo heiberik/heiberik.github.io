@@ -1,3 +1,21 @@
+.artikler_overskrift{
+    display: table;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, .9);
+    text-shadow: 2px 2px black;
+    border-bottom: solid orange 0.1rem;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
+}
+
 .bildetekst {
     display: block;
     margin: auto;
@@ -117,7 +135,6 @@ a {
 
 .gallery {
   padding: 0 0rem;
-  margin-top: 20vh;
   margin-bottom: 50vh;
   -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 1.5s; /* Firefox < 16 */

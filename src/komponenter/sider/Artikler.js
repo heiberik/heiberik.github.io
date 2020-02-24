@@ -97,6 +97,7 @@ class Artikler extends React.Component {
     render(){
         return (
             <>
+                <h1 className="artikler_overskrift"> Mine artikler </h1>
         		<section className="gallery">
         			<div className="artikler-container">
 
