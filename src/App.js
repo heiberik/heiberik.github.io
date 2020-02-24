@@ -8,7 +8,7 @@ export default function App() {
 
     return (
       <>
-          <BrowserRouter>
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Navbar/>
             <Innhold/>
           </BrowserRouter>
