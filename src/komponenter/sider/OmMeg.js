@@ -16,19 +16,18 @@ const OmMeg = () => {
 
     					<h2>Hvem er jeg?</h2>
     					<p>
-    	                    Skal vi se. Jeg heter Henrik. I skrivende stund er jeg en 27 år gammel informatikkstudent
+    	                    Mitt navn er Henrik. I skrivende stund er jeg en 27 år gammel informatikkstudent
     	                    ved Universitetet i Oslo. Der går jeg på linjen programmering og systemarkitektur.
-    						På fritiden liker jeg å trene, høre på musikk, bedrive GAMEING og
+                            Jeg er utdannet jurist ved samme universitetet. Til sommeren 2020 avslutter jeg
+                            åtte år med studier
+                            <br /><br />
+
+                            På fritiden liker jeg å trene, høre på musikk, bedrive GAMEING og
     						lære nye ting om stort og smått.
     						Jeg har alltid vært glad i å bygge og sette sammen ulike duppeditter.
     						<br /><br />
 
 
-    						Som for så mange andre var
-    	                    nok gateway-druget lego. Så hadde jeg den obligatoriske fasen med å ødelegge
-    	                    samtlige elektriske leker for å sette dem sammen på nye måter.
-    	                    Treetasjes trehytte var neste steg på veien mot storhet.
-    	                    <br /><br />
     					</p>
 
 
