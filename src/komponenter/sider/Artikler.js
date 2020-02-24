@@ -97,20 +97,6 @@ class Artikler extends React.Component {
     render(){
         return (
             <>
-                <div className="mal_innhold">
-        			<div className="innhold">
-        				<div className="tekstBoks">
-        					<h2>Mine artikler</h2>
-        					<p>
-        						Under vil du forhåpentligvis etter hvert finne et hav av skriverier av
-        						varierende kvalitet. Jeg kommer til å skrive om og publisere
-        						akkurat det som faller meg inn fra tid til annen. Så da er det opp til deg
-        						å nyte innholdet som er servert på en måte du finner passende.
-        					 </p>
-        				</div>
-        			</div>
-        		</div>
-
         		<section className="gallery">
         			<div className="artikler-container">
 
@@ -124,7 +110,7 @@ class Artikler extends React.Component {
 
         			      	<ul className="view-options">
         				        <li className="zoom" ref={this.zoom}>
-        				          <input type="range" ref={this.rangeInput} min="100" max="320" defaultValue="200"></input>
+        				          <input type="range" ref={this.rangeInput} min="180" max="300" defaultValue="240"></input>
         				        </li>
         				        <li className="show-grid active" ref={this.btnGridParent}>
         				          <button disabled ref={this.btnGrid} aria-label="grid">
@@ -184,7 +170,77 @@ class Artikler extends React.Component {
             			        	</figure>
                                 </NavLink>
         			      	</li>
-                            
+
+                            <li>
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+            			        	<figure>
+            			          		<img src={spaceBilde} alt="space"></img>
+            			          		<figcaption>
+            							  	<h2>Mine yndlingsfakta om universet</h2>
+            					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
+            								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
+            								om universet!</p>
+            			          		</figcaption>
+            			        	</figure>
+                                </NavLink>
+        			      	</li>
+
+                            <li>
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+            			        	<figure>
+            			          		<img src={spaceBilde} alt="space"></img>
+            			          		<figcaption>
+            							  	<h2>Mine yndlingsfakta om universet</h2>
+            					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
+            								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
+            								om universet!</p>
+            			          		</figcaption>
+            			        	</figure>
+                                </NavLink>
+        			      	</li>
+
+                            <li>
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+            			        	<figure>
+            			          		<img src={spaceBilde} alt="space"></img>
+            			          		<figcaption>
+            							  	<h2>Mine yndlingsfakta om universet</h2>
+            					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
+            								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
+            								om universet!</p>
+            			          		</figcaption>
+            			        	</figure>
+                                </NavLink>
+        			      	</li>
+
+                            <li>
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+            			        	<figure>
+            			          		<img src={spaceBilde} alt="space"></img>
+            			          		<figcaption>
+            							  	<h2>Mine yndlingsfakta om universet</h2>
+            					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
+            								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
+            								om universet!</p>
+            			          		</figcaption>
+            			        	</figure>
+                                </NavLink>
+        			      	</li>
+
+                            <li>
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+            			        	<figure>
+            			          		<img src={spaceBilde} alt="space"></img>
+            			          		<figcaption>
+            							  	<h2>Mine yndlingsfakta om universet</h2>
+            					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
+            								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
+            								om universet!</p>
+            			          		</figcaption>
+            			        	</figure>
+                                </NavLink>
+        			      	</li>
+
         			    </ol>
         			  </div>
         			</section>
