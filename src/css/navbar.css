@@ -13,7 +13,7 @@
 
 .navLink {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
     background: rgba(7,8,9, 0.3);
     font-weight: bold;
     font-size: 0.9rem;
@@ -21,7 +21,7 @@
     text-align: center;
     border-bottom: solid rgba(255, 255, 255, 0.1) 1px;
     display: block;
-    padding: 10px;
+    padding: 15px;
 }
 
 .navbar-toggle {
@@ -138,13 +138,13 @@
     }
 
     .main-nav .navLink {
-        color: rgba(255, 255, 255, 0.8);
+        color: rgba(255, 255, 255, 0.9);
         white-space: nowrap;
-        font-weight: bold;
+        font-weight: 600;
         background: inherit;
         transition: 400ms;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .main-nav .navLink:hover {
@@ -156,7 +156,8 @@
     }
 
     .navbar_navn_boks h5 {
-        font-size: 22px;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.9);
         margin-left: 5px;
     }
 

@@ -30,16 +30,17 @@
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
-    filter: brightness(70%);
-    -webkit-filter: brightness(70%);
-    -moz-filter: brightness(70%);
-    -o-filter: brightness(70%);
-    -ms-filter: brightness(70%);
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%);
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    -ms-filter: brightness(80%);
     position: absolute;
     z-index: -1;
 
     top: 0;
     height: 100%;
+    max-height: 100%;
     width: 100%;
     margin: auto;
 
@@ -53,7 +54,7 @@
 
 .forside_tekst {
     position: absolute;
-    bottom: 20vh;
+    bottom: 10vh;
     left: 5vw;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -89,7 +90,7 @@
 
 
     .forside_tekst {
-        bottom: 10vh;
+        bottom: 5vh;
         left: 2vw;
     }
 

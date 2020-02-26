@@ -18,6 +18,7 @@
 }
 
 .prosjekter-grid {
+    background-color: rgb(45,47,51);
     display: flex;
     min-width: 750px;
     width: 75vw;
@@ -56,7 +57,7 @@
 
 .prosjekter-grid h2{
     font-size: 32px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 1);
     text-shadow: 2px 2px black;
     padding-bottom: 20px;
     padding-left: 20px;

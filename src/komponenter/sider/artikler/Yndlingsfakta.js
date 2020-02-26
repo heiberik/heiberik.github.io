@@ -137,7 +137,7 @@ class Yndlingsfakta extends React.Component {
                         </div>
                         <br></br><br></br><br></br>
                         <p>
-                            Den tilsynelatende tomme delen av universet viste seg å inneholde rundt 10 000 galakser!<sup><a className="link_artikkel" href="#fn4" id="ref4">4</a></sup>
+                            Den tilsynelatende tomme delen av universet viste seg å inneholde rundt 10 000 galakser!<sup><a className="link_artikkel" href="#fn4" id="ref4">4 </a></sup>
                             GALAKSER! Melkeveien, vår egen galakse, inneholder omkring 300 milliarder stjerner.
                             Som allerede nevnt er avstanden mellom hver enkelt stjerne ubegripelig
                             store!
@@ -171,7 +171,7 @@ class Yndlingsfakta extends React.Component {
                             <br></br><br></br>
 
                             Varmen på jorden avhenger av to ting - varmeoverføring fra solen og varmetap fra jorden
-                            til verdensrommet.<sup><a className="link_artikkel" href="#fn5" id="ref5">5</a></sup>
+                            til verdensrommet.<sup><a className="link_artikkel" href="#fn5" id="ref5">5 </a></sup>
                             Varmetap til verdensrommet reguleres av atmosfærens innhold av drivhusgasser,
                             hvor karbondioksid er den dominerende. Varmeoverføringen til jorden bestemmes
                             naturlig nok av avstanden mellom jorden og solen, som igjen avhenger av jordens
