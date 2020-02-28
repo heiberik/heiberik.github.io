@@ -11,7 +11,6 @@ const Prosjekter = () => {
 
     return (
             <>
-
                 <Prosjekt
                     navn = "Portfolio / React"
                     bildeURL={bilde2}
@@ -19,10 +18,11 @@ const Prosjekter = () => {
                     kodeURL = "https://github.com/heiberik/heiberik.github.io"
                     kildeURL = "https://heiberik.com/"
                     beskrivelse = {
-                        "Min offisielle portfolio kodet i React. Dette er et pågående prosjekt " +
+                        "Min offisielle portfolio kodet i React. Altså her du befinner deg nå. " +
+                        "Dette er et pågående prosjekt " +
                         "for å videreutvikle ferdigheter innen både webutvikling og skriving. " +
-                        "Så langt har jeg blant annet blitt komfortabel med å lage gjenbrukbare Components " +
-                        "- noe som har vært en åpenbaring sammenlignet med livet uten."
+                        "Oppdagelsen av Reacts components har vært spesielt gledelig for en som  " +
+                        "først kodet hjemmesiden i ren html."
                     }/>
 
                 <Prosjekt
@@ -32,7 +32,7 @@ const Prosjekter = () => {
                     kodeURL = "https://github.com/heiberik/heiberik.github.io-css-html-js"
                     kildeURL = "https://heiberik.netlify.com/"
                     beskrivelse = {
-                        "Min første selvsnekrede webside. " +
+                        "Min aller første selvsnekrede webside! " +
                         "Bygget uten rammeverk eller andre verktøy. " +
                         "Under utviklingen har jeg lært grunnleggende HTML, CSS og JS. " +
                         "Prosjektet inspirerte meg til å lære ReactJS - som hele kodebasen " +
@@ -54,10 +54,11 @@ const Prosjekt = ({ bildeURL, navn, beskrivelse, stack, kodeURL, kildeURL }) => 
             </div>
             <div className="prosjekter-grid-kol-60">
                 <h2> {navn} </h2>
-                <p> {beskrivelse} </p>
                 <div className="stack">
                     {stack.map(item => <p key={item}> {item} </p>)}
                 </div>
+                <p> {beskrivelse} </p>
+
 
                 <div className="stack">
                     <a className="visKode" href={kodeURL}  aria-label="github" alt="github" target="_blank" rel="noopener noreferrer">
