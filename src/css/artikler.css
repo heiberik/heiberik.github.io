@@ -103,7 +103,7 @@ sup {
 
 
 :root {
-  --minRangeValue: 200px;
+  --minRangeValue: 220px;
 }
 
 * {
@@ -263,7 +263,7 @@ a {
     font-size: 26px;
     line-height: 32px;
     padding-bottom: 0px;
-    text-align: left;
+    text-align: center;
     padding-left: 0px;
     word-break: keep-all;
     color: rgba(255,255,255,0.9);
