@@ -34,6 +34,14 @@
             animation: fadein 1.5s;
 }
 
+.prosjekter-grid:first-of-type {
+    margin-top: 25vh;
+}
+
+.prosjekter-grid:last-of-type {
+    margin-bottom: 20vh;
+}
+
 .prosjekter-grid-kol-60 {
     flex: 60%;
     padding-left: 25px;

@@ -134,6 +134,7 @@ a {
 
 .gallery {
   padding: 0 0rem;
+  margin-top: 25vh;
   margin-bottom: 50vh;
   -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 1.5s; /* Firefox < 16 */

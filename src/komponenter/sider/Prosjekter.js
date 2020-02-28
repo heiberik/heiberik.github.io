@@ -3,15 +3,14 @@ import Footer from '../deler/Footer'
 import '../../css/tekstbokser.css'
 import '../../css/prosjekter.css'
 import '../../css/carousel.css'
-import bilde1 from '../../bilder/prosjekter-portfolio.png'
-import bilde2 from '../../bilder/prosjekter2.png'
+import bilde1 from '../../bilder/prosjekt1-mindre.jpg'
+import bilde2 from '../../bilder/prosjekt2-mindre.jpg'
 
 
 const Prosjekter = () => {
 
     return (
             <>
-                <h1 className="prosjekter_overskrift"> Mine prosjekter </h1>
 
                 <Prosjekt
                     navn = "Portfolio / React"

@@ -97,7 +97,6 @@ class Artikler extends React.Component {
     render(){
         return (
             <>
-                <h1 className="artikler_overskrift"> Mine artikler </h1>
         		<section className="gallery">
         			<div className="artikler-container">
 
@@ -131,7 +130,7 @@ class Artikler extends React.Component {
         			  	<ol className="image-list grid-view" ref={this.imageList}>
 
         					<li>
-                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet" style={{textDecoration:"none"}}>
             			        	<figure>
             			          		<img src={spaceBilde} alt="space"></img>
             			          		<figcaption>
@@ -145,7 +144,7 @@ class Artikler extends React.Component {
         			      	</li>
 
                             <li>
-                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet" style={{textDecoration:"none"}}>
             			        	<figure>
             			          		<img src={spaceBilde} alt="space"></img>
             			          		<figcaption>
@@ -159,7 +158,7 @@ class Artikler extends React.Component {
         			      	</li>
 
                             <li>
-                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet" style={{textDecoration:"none"}}>
             			        	<figure>
             			          		<img src={spaceBilde} alt="space"></img>
             			          		<figcaption>
@@ -173,7 +172,7 @@ class Artikler extends React.Component {
         			      	</li>
 
                             <li>
-                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet" style={{textDecoration:"none"}}>
             			        	<figure>
             			          		<img src={spaceBilde} alt="space"></img>
             			          		<figcaption>
@@ -187,7 +186,7 @@ class Artikler extends React.Component {
         			      	</li>
 
                             <li>
-                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet" style={{textDecoration:"none"}}>
             			        	<figure>
             			          		<img src={spaceBilde} alt="space"></img>
             			          		<figcaption>
@@ -201,7 +200,7 @@ class Artikler extends React.Component {
         			      	</li>
 
                             <li>
-                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet" style={{textDecoration:"none"}}>
             			        	<figure>
             			          		<img src={spaceBilde} alt="space"></img>
             			          		<figcaption>
@@ -215,7 +214,7 @@ class Artikler extends React.Component {
         			      	</li>
 
                             <li>
-                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet" style={{textDecoration:"none"}}>
             			        	<figure>
             			          		<img src={spaceBilde} alt="space"></img>
             			          		<figcaption>
@@ -229,7 +228,7 @@ class Artikler extends React.Component {
         			      	</li>
 
                             <li>
-                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet">
+                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet" style={{textDecoration:"none"}}>
             			        	<figure>
             			          		<img src={spaceBilde} alt="space"></img>
             			          		<figcaption>
