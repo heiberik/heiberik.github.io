@@ -21,6 +21,7 @@ const Navbar = () => {
         linkToggle.current.classList.toggle('active')
     }
 
+
     const endreTekst = () => {
 
         if (!mobil){
