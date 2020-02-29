@@ -19,7 +19,7 @@
 
 .prosjekter-grid {
     background-color: rgba(255,255,255, 0.1);
-    border: solid 0.1rem black;
+    border: solid 0.2rem rgba(255,255,255, 0.1);
     display: flex;
     min-width: 750px;
     max-width: 1000px;
@@ -107,21 +107,22 @@
 
 
 .visKode {
-    padding: 12px;
+    padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    background: rgb(116, 127, 224);
+    background: rgb(146, 157, 254);
     border-radius: 5px;
     display: flex;
     box-shadow: 0px 0px 12px 3px black;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 1);
     text-decoration: none;
     align-items: center;
     transition: 0.1s;
     font-size: 14px;
     margin-right: 20px;
     margin-bottom: 10px;
+    border: solid black 1px;
 }
 
 .visKode:hover {
@@ -129,14 +130,14 @@
 }
 
 .visKode .fa {
-    color: white;
+    color: rgba(255, 255, 255, 1);
     margin-left: 10px;
     font-size: 16px;
 }
 
 
 .visKilde {
-    padding: 12px;
+    padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     background: inherit;
@@ -144,11 +145,12 @@
     display: flex;
     box-shadow: 0px 0px 12px 3px black;
     font-weight: bold;
-    color: rgb(116, 127, 224);
+    color: rgb(146, 157, 254);
     text-decoration: none;
     align-items: center;
     font-size: 14px;
     margin-bottom: 10px;
+    border: solid black 1px;
 }
 
 .visKilde:hover {
@@ -156,7 +158,7 @@
 }
 
 .visKilde .fa {
-    color: rgb(116, 127, 224);
+    color: rgb(146, 157, 254);
     margin-left: 10px;
     font-weight: bold;
     font-size: 16px;
