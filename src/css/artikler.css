@@ -156,7 +156,7 @@ a {
 /* TOOLBAR –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .toolbar {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -165,7 +165,7 @@ a {
     padding: 8px;
     background: rgb(7, 8, 9);
     border: solid black .1rem;
-    box-shadow: 2px 2px 5px 1px black;
+    box-shadow: 0px 0px 10px 2px black;
     border: solid rgba(0, 0, 0, 0.8) 0.1rem;
     background-color: rgba(255,255,255, 0.1);
     border-radius: 10px;
@@ -179,11 +179,10 @@ a {
     font-size: 1rem;
     margin: auto;
     margin-left: 10px;
-    border: none;
-    padding: 10px;
-    padding-bottom: 8px;
-    background: rgb(5, 7, 11);
-    color: rgba(255, 255, 255, 0.9);
+    border: solid 1px black;
+    padding: 8px;
+    background-color: rgb(25,27,31);
+    color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
 }
 
@@ -248,7 +247,7 @@ a {
 .image-list li {
     background-color: rgba(255,255,255, 0.1);
     border: solid black 0.1rem;
-    box-shadow: 2px 2px 5px 1px black;
+    box-shadow: 0px 0px 10px 2px black;
     border-radius: 20px;
 }
 
@@ -283,7 +282,7 @@ a {
 /* GRID VIEW –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .grid-view {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 15px;
   grid-template-columns: repeat(auto-fit, minmax(var(--minRangeValue), 1fr));
 }
 
@@ -312,7 +311,7 @@ a {
   height: 100px;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(to right, #000000, #111);
+  background-color: rgba(255, 255, 255, 0.1);
   transition: all 200ms;
 }
 
@@ -325,6 +324,7 @@ a {
     font-size: 28px;
     padding-bottom: 5px;
     color: rgba(255, 255, 255, 0.8);
+    border-bottom: solid rgba(255, 165, 0, 0.5) 1px;
 }
 
 .list-view p {
@@ -340,9 +340,10 @@ a {
 
 .list-view img {
     margin: auto;
-    margin-left: 10px;
+    margin-left: 5px;
     border-bottom: none;
     height: auto;
+    border-radius: 15px;
 }
 
 
@@ -382,6 +383,7 @@ a {
     .toolbar {
         display: flex;
         margin: 10px;
+        margin-bottom: 15px;
         margin-top: 50px;
         padding: 8px;
         border: none;
