@@ -15,7 +15,7 @@ const Prosjekter = () => {
                     navn = "Portfolio / React"
                     bildeURL={bilde2}
                     stack = {["ReactJS", "HTML", "CSS", "Github Pages", "CloudFlare"]}
-                    kodeURL = "https://github.com/heiberik/heiberik.github.io"
+                    kodeURL = "https://github.com/heiberik/hjemmeside-react"
                     kildeURL = "https://heiberik.com/"
                     beskrivelse = {
                         "Min offisielle portfolio kodet i React. Altså her du befinner deg nå. " +
@@ -29,7 +29,7 @@ const Prosjekter = () => {
                     navn = "Portfolio"
                     bildeURL = {bilde1}
                     stack = {["HTML", "CSS", "JavaScript", "Netlify"]}
-                    kodeURL = "https://github.com/heiberik/heiberik.github.io-css-html-js"
+                    kodeURL = "https://github.com/heiberik/hjemmeside"
                     kildeURL = "https://heiberik.netlify.com/"
                     beskrivelse = {
                         "Min aller første selvsnekrede webside! " +
