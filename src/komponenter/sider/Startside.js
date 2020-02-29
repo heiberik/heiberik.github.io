@@ -5,7 +5,7 @@ const Startside = () => {
 
 
     return (
-        <>
+        <div style={{overflow:"hidden"}}>
             <div className="forside"></div>
 
             <div className="forside_tekst">
@@ -13,7 +13,7 @@ const Startside = () => {
                 <h1 className="forside_tittel">Informatiker og jurist.</h1>
                 <p>Velkommen til min karrierefremmende webside.</p>
             </div>
-        </>
+        </div>
     )
 }
 
