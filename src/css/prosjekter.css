@@ -176,6 +176,7 @@
         padding: 20px;
         border-radius: 30px;
         margin-bottom: 5vh;
+        box-shadow: 2px 2px 10px 0px black;
     }
 
     .prosjekter-grid:first-of-type {
