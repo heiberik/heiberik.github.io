@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-
 import '../../css/navbar.css'
 import logoBilde from '../../bilder/profil.jfif'
 import listBilde from '../../bilder/list.svg'
@@ -38,18 +37,18 @@ const Navbar = () => {
                 topp = false;
                 breakPoint = 250;
 
-                const path = window.location.pathname
-                if (path === "/om-meg"){
-                    byttTekst("Om meg")
-                }
-                else if (path === "/prosjekter"){
-                    byttTekst("Prosjekter")
-                }
-                else if (path === "/artikler"){
-                    byttTekst("Artikler")
-                }
-                else {
-                    byttTekst("Artikkel")
+                switch(window.location.pathname){
+                    case "/om-meg":
+                        byttTekst("Om meg")
+                        break
+                    case "/prosjekter":
+                        byttTekst("Prosjekter")
+                        break
+                    case "/artikler":
+                        byttTekst("Artikler")
+                        break
+                    default:
+                        byttTekst("Artikkel")
                 }
             }
         }
@@ -68,10 +67,8 @@ const Navbar = () => {
 
     function linkTittel(event){
         var skjermhoyde = document.documentElement.scrollTop;
-        if (skjermhoyde < breakPoint){
-            window.location.href = "/";
-        }
-        else {
+        if (skjermhoyde > breakPoint){
+            event.preventDefault()
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
     }
@@ -86,9 +83,11 @@ const Navbar = () => {
 
 			<div className="navbar_navn_boks">
 				<img className="nav_bilde" src={logoBilde} alt="profil"></img>
-                <div id="tekst_artikler_div" className="navbar_navn_div">
-				   <h5 id="tekst_artikler" ref={navbarTekst} onClick={linkTittel} className="navbar_navn_tekst">Henrik Heiberg</h5>
-                </div>
+                <NavLink to={"/"} onClick={linkTittel} style={{textDecoration:"none", backgroundColor:"inherit"}}>
+                    <div id="tekst_artikler_div" className="navbar_navn_div">
+    				   <h5 id="tekst_artikler" ref={navbarTekst}  className="navbar_navn_tekst">Henrik Heiberg</h5>
+                    </div>
+                </NavLink>
 			</div>
 
 	        <ul className="main-nav" id="js-menu" ref={linkToggle}>
