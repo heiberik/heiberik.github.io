@@ -9,7 +9,7 @@ const Navbar = () => {
 
     let linkToggle = React.createRef()
     let navbarTekst = React.createRef()
-    let breakPoint = 200;
+    let breakPoint = 500;
     let topp = true;
     var mobil = false;
     if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -28,14 +28,14 @@ const Navbar = () => {
 
             if (skjermhoyde < breakPoint && !topp){
                 byttTekst("Henrik Heiberg")
-                breakPoint = 150;
+                breakPoint = 500;
                 topp = true;
             }
 
             else if (skjermhoyde > breakPoint && topp){
 
                 topp = false;
-                breakPoint = 250;
+                breakPoint = 50;
 
                 switch(window.location.pathname){
                     case "/om-meg":

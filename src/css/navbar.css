@@ -103,6 +103,7 @@
         height: 60px;
     }
 
+
     .navLink {
         border-bottom: none;
     }
@@ -145,10 +146,29 @@
         transition: 400ms;
         text-decoration: none;
         font-size: 16px;
+        position: relative;
     }
 
-    .main-nav .navLink:hover {
-        color: white;
+
+    .main-nav .navLink:after {
+        position: absolute;
+        content: "";
+        height: 1px;
+        bottom: 7px;
+        left: 50%;
+        width: 0%;
+        background-color: rgba(255, 165, 0, 1);
+        transition: 0.2s ease all 0s;
+    }
+
+    .main-nav .navLink:hover:after{
+        width: 80%;
+        left: 10%;
+        transition: 0.7s ease all 0s;
+    }
+
+    .main-nav .navLink:hover{
+        transition: 0.7s ease all 0s;
     }
 
     .navbar_navn_tekst {
@@ -162,7 +182,7 @@
     }
 
     .navbar_navn_tekst:hover {
-        color:white;
+        color: white;
     }
 
     .navbar-toggle {
