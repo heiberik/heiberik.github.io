@@ -164,11 +164,8 @@ a {
     align-items: center;
     padding: 8px;
     background: rgb(7, 8, 9);
-    border: solid black .1rem;
-    box-shadow: 0px 0px 10px 2px black;
     border: solid rgba(0, 0, 0, 0.8) 0.1rem;
-    background-color: rgba(255,255,255, 0.1);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .toolbar .search-wrapper {
@@ -179,17 +176,15 @@ a {
     font-size: 1rem;
     margin: auto;
     margin-left: 10px;
-    border: solid 1px black;
     padding: 8px;
-    background: rgb(9, 10, 11);
+    background: inherit;
     color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
+    padding-left: 10px;
 }
 
 .toolbar input[type="search"]::placeholder {
     color: rgba(255, 255, 255, 0.8);
     font-size: 0.8rem;
-    padding-left: 5px;
 }
 
 
@@ -198,6 +193,7 @@ a {
     margin: auto;
     margin-left: 15px;
     color: rgba(255, 255, 255, 0.8);
+    display: none;
 }
 
 .toolbar .counter span {
