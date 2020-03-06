@@ -5,6 +5,7 @@ import '../../css/prosjekter.css'
 import '../../css/carousel.css'
 import bilde1 from '../../bilder/prosjekt1-mindre.jpg'
 import bilde2 from '../../bilder/prosjekt2-mindre.jpg'
+import bilde3 from '../../bilder/prosjekt3.JPG'
 
 
 const Prosjekter = () => {
@@ -26,7 +27,20 @@ const Prosjekter = () => {
                     }/>
 
                 <Prosjekt
-                    navn = "Portfolio"
+                    navn = "Ha Deg Vekk!"
+                    bildeURL={bilde3}
+                    stack = {["Chrome extensions", "HTML", "CSS", "JavaScript"]}
+                    kodeURL = "https://github.com/heiberik/Ha-Deg-Vekk"
+                    kildeURL = "https://chrome.google.com/webstore/detail/ha-deg-vekk/hmbfkgpomhdccagjoodoceidifmoanjn"
+                    beskrivelse = {
+                        "Et første forsøk på sette sammen en Google Chrome Extension. " +
+                        "Applikasjonen filtrerer vekk nyhetsartikler basert på brukervalgte nøkkelord. " +
+                        "Største utfordring var å få til god flyt (message passing) mellom de ulike scriptene som kjører " +
+                        "i bakgrunnen."
+                    }/>
+
+                <Prosjekt
+                    navn = "Portfolio / HTML"
                     bildeURL = {bilde1}
                     stack = {["HTML", "CSS", "JavaScript", "Netlify"]}
                     kodeURL = "https://github.com/heiberik/hjemmeside"
