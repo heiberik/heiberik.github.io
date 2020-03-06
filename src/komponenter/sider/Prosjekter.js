@@ -12,6 +12,21 @@ const Prosjekter = () => {
 
     return (
             <>
+
+            <Prosjekt
+                navn = "Ha Deg Vekk!"
+                bildeURL={bilde3}
+                stack = {["Chrome extensions", "HTML", "CSS", "JavaScript"]}
+                kodeURL = "https://github.com/heiberik/Ha-Deg-Vekk"
+                kildeURL = "https://chrome.google.com/webstore/detail/ha-deg-vekk/hmbfkgpomhdccagjoodoceidifmoanjn"
+                beskrivelse = {
+                    "Et første forsøk på sette sammen en Google Chrome Extension. " +
+                    "Applikasjonen filtrerer vekk nyhetsartikler basert på brukervalgte nøkkelord. " +
+                    "Største utfordring var å få til god flyt (message passing) mellom de ulike scriptene som kjører " +
+                    "i bakgrunnen."
+                }/>
+
+                
                 <Prosjekt
                     navn = "Portfolio / React"
                     bildeURL={bilde2}
@@ -26,18 +41,7 @@ const Prosjekter = () => {
                         "først kodet hjemmesiden i ren html."
                     }/>
 
-                <Prosjekt
-                    navn = "Ha Deg Vekk!"
-                    bildeURL={bilde3}
-                    stack = {["Chrome extensions", "HTML", "CSS", "JavaScript"]}
-                    kodeURL = "https://github.com/heiberik/Ha-Deg-Vekk"
-                    kildeURL = "https://chrome.google.com/webstore/detail/ha-deg-vekk/hmbfkgpomhdccagjoodoceidifmoanjn"
-                    beskrivelse = {
-                        "Et første forsøk på sette sammen en Google Chrome Extension. " +
-                        "Applikasjonen filtrerer vekk nyhetsartikler basert på brukervalgte nøkkelord. " +
-                        "Største utfordring var å få til god flyt (message passing) mellom de ulike scriptene som kjører " +
-                        "i bakgrunnen."
-                    }/>
+
 
                 <Prosjekt
                     navn = "Portfolio / HTML"

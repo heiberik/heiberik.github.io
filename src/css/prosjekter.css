@@ -24,9 +24,11 @@
     max-width: 1000px;
     padding: 50px;
     margin: auto;
-    margin-bottom: 15vh;
-    box-shadow: 2px 2px 5px 2px black;
-    border-radius: 50px;
+    margin-bottom: 5vh;
+    box-shadow: 0px 0px 5px 0px white;
+    border-radius: 30px;
+    border: solid .1rem black;
+    background: black;
     -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1.5s; /* Firefox < 16 */
         -ms-animation: fadein 1.5s; /* Internet Explorer */
@@ -45,7 +47,7 @@
 .prosjekter-grid-kol-60 {
     flex: 60%;
     padding-left: 25px;
-    border-left: solid rgba(255, 165, 0, 0.3) 1px;
+    border-left: solid rgba(255, 165, 0, 0.7) .1rem;
 }
 
 .prosjekter-grid-kol-40 {
@@ -174,8 +176,8 @@
         min-width: 50vw;
         padding: 20px;
         margin-bottom: 5vh;
-        border-radius: 5px;
-        box-shadow: 2px 2px 10px 0px black;
+        border-radius: 15px;
+        box-shadow: 0px 0px 5px 0px white;
     }
 
     .prosjekter-grid:first-of-type {
