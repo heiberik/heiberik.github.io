@@ -60,8 +60,8 @@ const Navbar = () => {
                 navbarTekst.current.innerHTML = t
                 setTimeout(() => {
                     navbarTekst.current.style.opacity = "1";
-                }, 200)
-            }, 300);
+                }, 350)
+            }, 350);
     }
 
 
