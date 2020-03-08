@@ -18,17 +18,17 @@
 }
 
 .prosjekter-grid {
-    background-color: rgba(255,255,255, 0.1);
     display: flex;
     min-width: 750px;
     max-width: 1000px;
     padding: 50px;
     margin: auto;
     margin-bottom: 5vh;
-    box-shadow: 0px 0px 5px 0px white;
-    border-radius: 30px;
-    border: solid .1rem black;
-    background: black;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    border-radius: 0px;
+    border: solid black 0.1rem;
+    border-right: solid rgba(255, 165, 0, 0.3) .1rem;
+    background: rgb(9, 10, 11);
     -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1.5s; /* Firefox < 16 */
         -ms-animation: fadein 1.5s; /* Internet Explorer */
@@ -47,7 +47,7 @@
 .prosjekter-grid-kol-60 {
     flex: 60%;
     padding-left: 25px;
-    border-left: solid rgba(255, 165, 0, 0.7) .1rem;
+    border-left: solid rgba(255, 165, 0, 0.2) .1rem;
 }
 
 .prosjekter-grid-kol-40 {
@@ -65,6 +65,7 @@
     border: solid black 0.1rem;
     border-radius: 20px;
     object-fit:cover;
+    filter: brightness(90%);
 
 }
 
@@ -94,7 +95,7 @@
 }
 
 .stack p {
-    border: solid rgba(255, 165, 0, 0.7) 0.1rem;
+    border: solid rgba(255, 165, 0, 0.8) 0.1rem;
     padding: 5px;
     margin-right: 10px;
     margin-bottom: 10px;
