@@ -359,15 +359,15 @@ a {
 
     .gallery {
       margin-bottom: 100px;
-      max-width: 95vw;
-      width: 95vw;
+      max-width: 98vw;
+      width: 98w;
       margin: auto;
       padding: 0px;
     }
 
     .artikler-container {
-      max-width: 95vw;
-      width: 95vw;
+      max-width: 98vw;
+      width: 98vw;
       margin: auto;
     }
 
@@ -402,7 +402,6 @@ a {
       box-shadow: none;
       margin: 0px;
       padding: 0px;
-      box-shadow: 0px 0px 5px 0px white;
     }
 
     .image-list li:first-of-type {

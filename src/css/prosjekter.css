@@ -26,6 +26,8 @@
     margin-bottom: 5vh;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
     border-radius: 0px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
     border: solid black 0.1rem;
     border-right: solid rgba(255, 165, 0, 0.3) .1rem;
     background: rgb(9, 10, 11);
@@ -178,7 +180,7 @@
         padding: 20px;
         margin-bottom: 5vh;
         border-radius: 15px;
-        box-shadow: 0px 0px 5px 0px white;
+        border: solid black 0.1rem;
     }
 
     .prosjekter-grid:first-of-type {
