@@ -30,11 +30,11 @@
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
-    filter: brightness(50%);
-    -webkit-filter: brightness(20%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
+    filter: brightness(30%);
+    -webkit-filter: brightness(30%);
+    -moz-filter: brightness(30%);
+    -o-filter: brightness(30%);
+    -ms-filter: brightness(30%);
     position: absolute;
     z-index: -1;
 
@@ -54,7 +54,7 @@
 
 .forside_tekst {
     position: absolute;
-    bottom: 10vh;
+    bottom: 15vh;
     left: 8vw;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -65,21 +65,21 @@
 
 .forside_tekst p {
     color: rgba(255, 165, 0, 0.9);
-    font-size: 2.0rem;
+    font-size: 2.4rem;
     font-weight: 500;
     text-shadow: 2px 2px black;
     line-height: 2.5rem;
 }
 
 .forside_tittel {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.8);
     text-shadow: 2px 2px black;
     text-align: left;
     margin: auto;
     margin-right: 0px;
     margin-top: 0px;
-    font-size: 2.5rem;
-    line-height: 2.8rem;
+    font-size: 3.0rem;
+    line-height: 2.5rem;
     font-weight: 500;
 }
 
@@ -87,7 +87,6 @@
 
 
 @media screen and (max-width: 768px) {
-
 
     .forside_tekst {
         bottom: 2vh;

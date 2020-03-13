@@ -138,7 +138,7 @@
     }
 
     .main-nav .navLink {
-        color: rgba(255, 255, 255, 0.8);
+        color: rgba(255, 255, 255, 0.9);
         white-space: nowrap;
         font-weight: 600;
         background: inherit;
@@ -177,7 +177,7 @@
 
     .navbar_navn_boks h5 {
         font-size: 20px;
-        color: rgba(255, 255, 255, 0.8);
+        color: rgba(255, 255, 255, 0.9);
         margin-left: 5px;
     }
 
