@@ -24,13 +24,11 @@
     padding: 50px;
     margin: auto;
     margin-bottom: 5vh;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-    border-radius: 0px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    border-radius: 30px;
     border: solid black 0.1rem;
-    border-right: solid rgba(255, 165, 0, 0.3) .1rem;
     background: rgb(9, 10, 11);
+    background-image: linear-gradient(orange, #FF6347);
     -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1.5s; /* Firefox < 16 */
         -ms-animation: fadein 1.5s; /* Internet Explorer */
@@ -49,7 +47,7 @@
 .prosjekter-grid-kol-60 {
     flex: 60%;
     padding-left: 25px;
-    border-left: solid rgba(255, 165, 0, 0.2) .1rem;
+    border-left: solid orange .1rem;
 }
 
 .prosjekter-grid-kol-40 {
@@ -64,29 +62,29 @@
     width: 100%;
     min-width: 300px;
     height: auto;
-    border: solid black 0.1rem;
     border-radius: 20px;
     object-fit:cover;
     filter: brightness(90%);
-
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 .prosjekter-grid h2{
     font-size: 32px;
     color: rgba(255, 255, 255, 1);
-    text-shadow: 2px 2px black;
+    text-shadow: 3px 1px black;
     padding-left: 20px;
 }
 
 .prosjekter-grid p {
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px black;
     text-align: left;
     line-height: 26px;
     word-spacing: 2px;
     padding: 20px;
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 .stack {
@@ -97,13 +95,16 @@
 }
 
 .stack p {
-    border: solid rgba(255, 165, 0, 0.8) 0.1rem;
+    border: solid black 0.1rem;
     padding: 5px;
     margin-right: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
     font-size: 12px;
-    color: white;
+    color: black;
+    background: orange;
+    text-shadow: none;
+    font-weight: 500;
 }
 
 
@@ -115,7 +116,7 @@
     background: rgb(146, 157, 254);
     border-radius: 5px;
     display: flex;
-    box-shadow: 0px 0px 12px 3px black;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
@@ -124,7 +125,6 @@
     font-size: 14px;
     margin-right: 20px;
     margin-bottom: 10px;
-    border: solid black 1px;
 }
 
 .visKode:hover {
@@ -142,17 +142,16 @@
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    background: inherit;
+    background: white;
     border-radius: 5px;
     display: flex;
-    box-shadow: 0px 0px 12px 3px black;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     font-weight: bold;
     color: rgb(146, 157, 254);
     text-decoration: none;
     align-items: center;
     font-size: 14px;
     margin-bottom: 10px;
-    border: solid rgb(146, 157, 254) .1rem;
 }
 
 .visKilde:hover {

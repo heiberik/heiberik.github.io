@@ -116,17 +116,22 @@ sup {
 .artikkelBoks {
     width: 300px;
     background: rgb(9, 10, 11);
-    border: solid black 0.1rem;
+    background-image: linear-gradient(orange, orange, #FF6347);
     box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
     border-radius: 20px;
+    transition: 1s;
+}
+
+.artikkelBoks:hover{
+    transform: scale(1.05);
 }
 
 .artikkelBoks img {
-    border-bottom: .1rem solid rgba(255, 165, 0, 0.7);
+    border: .2rem solid orange;
     border-radius: 18px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    width: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
 }
 
 .artikkelBoks h2 {
@@ -138,15 +143,17 @@ sup {
     padding-bottom: 0px;
     padding-top: 15px;
     padding-bottom: 15px;
+    text-shadow: 2px 1px black;
 }
 
 
 .artikkelBoks p {
-    color: rgba(255,255,255,0.7);
+    color: rgba(255,255,255, 0.9);
+    text-shadow: 1px 1px black;
     text-align: left;
     line-height: 20px;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
     padding: 30px;
     padding-top: 0px;
 }
@@ -168,6 +175,7 @@ sup {
         max-width: 400px;
         box-shadow: none;
         margin: auto;
+        border-radius: 5px;
     }
 
     .artikkelBoks:first-of-type {
@@ -179,7 +187,8 @@ sup {
     }
 
     .artikkelBoks p {
-
+        padding: 40px;
+        padding-top: 0px;
     }
 
     .artikkelBoks img {
@@ -187,10 +196,13 @@ sup {
         max-width: 400px;
         padding: 0px;
         margin: 0px;
+        border-radius: 10px;
     }
 
     .artikkelBoks h2 {
-
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 20px;
     }
 
     .artikler_flex {
