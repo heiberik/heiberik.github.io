@@ -4,7 +4,7 @@ import '../../css/tekstbokser.css'
 import '../../css/prosjekter.css'
 import '../../css/carousel.css'
 import bilde1 from '../../bilder/prosjekt1-mindre.jpg'
-import bilde2 from '../../bilder/comp-prosjekt2.webp'
+import bilde2 from '../../bilder/prosjekt2.JPG'
 import bilde3 from '../../bilder/prosjekt3.JPG'
 
 

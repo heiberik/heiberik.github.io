@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../css/startside.css'
-import bakgrunn from '../../bilder/comp-bak12.webp'
+import bakgrunn from '../../bilder/bak12.jpg'
 
 const Startside = () => {
 

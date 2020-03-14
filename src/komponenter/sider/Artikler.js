@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../deler/Footer'
 import { NavLink } from 'react-router-dom';
 
-import spaceBilde from '../../bilder/comp-space.webp'
+import spaceBilde from '../../bilder/space.jpg'
 import '../../css/tekstbokser.css'
 import '../../css/artikler.css'
 import '../../css/input_range.css'
