@@ -26,7 +26,7 @@ const Prosjekter = () => {
                     "i bakgrunnen."
                 }/>
 
-                
+
                 <Prosjekt
                     navn = "Portfolio / React"
                     bildeURL={bilde2}
@@ -79,7 +79,7 @@ const Prosjekt = ({ bildeURL, navn, beskrivelse, stack, kodeURL, kildeURL }) => 
 
 
                 <div className="stack">
-                    <a className="visKode" href={kodeURL}  aria-label="github" alt="github" target="_blank" rel="noopener noreferrer">
+                    <a className="visKilde" href={kodeURL}  aria-label="github" alt="github" target="_blank" rel="noopener noreferrer">
                         <div> Se Kode </div>
                         <div className="fa fa-github"> </div>
                     </a>
