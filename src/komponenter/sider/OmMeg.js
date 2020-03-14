@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../deler/Footer'
 
-import profilBilde from '../../bilder/profil.jfif'
+import profilBilde from '../../bilder/comp-profil.webp'
 import '../../css/tekstbokser.css'
 import '../../css/timeline.css'
 

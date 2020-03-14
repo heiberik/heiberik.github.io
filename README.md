@@ -1,1 +1,3 @@
-Min hjemmeside - heiberik.com - kodet med React.
+# Min hjemmeside
+
+Kodet i React. Personlig CV og portfolio. 

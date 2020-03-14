@@ -1,9 +1,9 @@
 import React from 'react'
 import Footer from '../../deler/Footer'
 
-import bildeTopp from '../../../bilder/space.jpg'
-import hubble1 from '../../../bilder/hubble1.jpg'
-import hubble2 from '../../../bilder/hubble2.jpg'
+import bildeTopp from '../../../bilder/comp-space.webp'
+import hubble1 from '../../../bilder/comp-hubble1.webp'
+import hubble2 from '../../../bilder/comp-hubble2.webp'
 
 
 class Yndlingsfakta extends React.Component {
