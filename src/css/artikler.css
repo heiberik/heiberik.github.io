@@ -1,3 +1,5 @@
+/*  CSS FOR DE FAKTISKE ARTIKLER */
+
 .artikler_overskrift{
     display: table;
     font-size: 2rem;
@@ -88,9 +90,6 @@ sup {
     padding-bottom: 20px;
 }
 
-.siste_p {
-    margin-bottom: 200px;
-}
 
 #label_sok {
     color: rgba(255, 255, 255, 0.8);
@@ -98,44 +97,14 @@ sup {
 }
 
 
+/*  CSS FOR ARTIKKEL-LENKER */
 
-
-
-
-:root {
-  --minRangeValue: 220px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  border: none;
-}
-
-button {
-  cursor: pointer;
-  background: none;
-}
-
-.gallery img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-ol,ul {
-  list-style: none;
-}
-
-a {
-  color: inherit;
-}
-
-.gallery {
+.artikkelBeholder {
   padding: 0 0rem;
   margin-top: 20vh;
   margin-bottom: 50vh;
+  display: grid;
+  justify-content: center;
   -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 1.5s; /* Firefox < 16 */
       -ms-animation: fadein 1.5s; /* Internet Explorer */
@@ -143,375 +112,97 @@ a {
           animation: fadein 1.5s;
 }
 
-.artikler-container {
-  max-width: 60vw;
-  margin: 0 auto;
-}
 
-.d-none {
-  display: none !important;
-}
-
-
-/* TOOLBAR –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.toolbar {
-    margin-top: 20px;
-    margin-bottom: 12px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
-    background: rgb(7, 8, 9);
-    border: solid rgba(0, 0, 0, 0.8) 0.1rem;
-    border-radius: 0px;
-    display: none;
-}
-
-.toolbar .search-wrapper {
-    display: flex;
-}
-
-.toolbar input[type="search"] {
-    font-size: 1rem;
-    margin: auto;
-    margin-left: 10px;
-    padding: 8px;
-    background: inherit;
-    color: rgba(255, 255, 255, 0.8);
-    padding-left: 10px;
-}
-
-.toolbar input[type="search"]::placeholder {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 0.8rem;
-}
-
-
-.toolbar .counter {
-    font-size: 0.8rem;
-    margin: auto;
-    margin-left: 15px;
-    color: rgba(255, 255, 255, 0.8);
-    display: none;
-}
-
-.toolbar .counter span {
-    font-size: 0.8rem;
-    margin: auto;
-    color: rgba(255, 255, 255, 0.8);
-    font-family: sans-serif;
-    font-weight: 500;
-}
-
-.view-options {
-    display: flex;
-    align-items: center;
-}
-
-.view-options li {
-    margin-right: 10px;
-}
-
-.view-options button {
-    border-bottom: 2px solid transparent;
-    border: solid 0.1rem rgba(255, 255, 255, 0.1);
-    border-radius: 15%;
-    background: inherit;
-}
-
-.view-options .fa {
-    font-size: 18px;
-    padding: 8px;
-    padding-bottom: 6px;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.view-options .active button {
-    border-color: rgba(255, 255, 255, 0.5);
-    background: inherit;
-}
-
-
-
-/* IMAGE LIST –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.image-list {
-  margin: 0 0;
-  cursor: pointer;
-}
-
-.image-list li {
+.artikkelBoks {
+    width: 300px;
     background: rgb(9, 10, 11);
-    border: solid black 0.1rem;
+    background-image: linear-gradient(orange, orange, #FF6347);
     box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
     border-radius: 20px;
+    transition: 1s;
 }
 
-.image-list p {
-    color: rgba(255,255,255,0.7);
-    text-align: left;
-    line-height: 20px;
-    margin-top: 10px;
-    padding: 10px;
-    font-size: 14px;
-    font-weight: 500;
+.artikkelBoks:hover{
+    transform: scale(1.05);
 }
 
-.image-list img {
-    border-bottom: .1rem solid rgba(255, 165, 0, 0.7);
+.artikkelBoks img {
+    border: .2rem solid orange;
     border-radius: 18px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
 }
 
-.image-list h2 {
+.artikkelBoks h2 {
     font-size: 26px;
     line-height: 32px;
-    padding-bottom: 0px;
-    text-align: center;
-    padding-left: 0px;
     word-break: keep-all;
     color: rgba(255,255,255,1);
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-shadow: 2px 1px black;
 }
 
 
-
-/* GRID VIEW –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.grid-view {
-  display: grid;
-  grid-gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(var(--minRangeValue), 1fr));
-}
-
-.grid-view figcaption {
-  padding: 1rem;
-}
-
-.grid-view li {
-    transition: all 300ms;
-    -webkit-font-smoothing: subpixel-antialiased;
-    backface-visibility: hidden;
-}
-
-.grid-view li:hover {
-    transform: scale(1.02);
-    -webkit-font-smoothing: subpixel-antialiased;
-    backface-visibility: hidden;
+.artikkelBoks p {
+    color: rgba(255,255,255, 0.9);
+    text-shadow: 1px 1px black;
+    text-align: left;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 30px;
+    padding-top: 0px;
 }
 
 
-
-/* LIST VIEW
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.list-view li {
-  margin-top: 10px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.1);
-  transition: all 200ms;
-}
-
-.list-view li:hover {
-    transform: scale(1.01);
-}
-
-.list-view h2 {
-
-    font-size: 28px;
-    padding-bottom: 5px;
-    color: rgba(255, 255, 255, 0.8);
-    border-bottom: solid rgba(255, 165, 0, 0.5) 1px;
-}
-
-.list-view p {
-    display: none;
-}
-
-.list-view figure {
-  display: grid;
-  grid-gap: 1.5rem;
-  grid-template-columns: 150px 1fr;
-  align-items: center;
-}
-
-.list-view img {
-    margin: auto;
-    margin-left: 5px;
-    border-bottom: none;
-    height: auto;
-    border-radius: 15px;
-}
-
-
-
-/* MQ
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (max-width: 1000px) {
-  .toolbar input[type="range"] {
-    display: none;
-  }
-}
 
 
 @media screen and (max-width: 768px) {
 
-    .gallery {
-      margin-bottom: 100px;
-      max-width: 98vw;
-      width: 98w;
-      margin: auto;
-      padding: 0px;
+    .artikkelBeholder {
+        margin-bottom: 100px;
+        width: 100vw;
+        margin: auto;
+        justify-content: center;
     }
 
-    .artikler-container {
-      max-width: 98vw;
-      width: 98vw;
-      margin: auto;
+    .artikkelBoks {
+        width: 95%;
+        max-width: 400px;
+        box-shadow: none;
+        margin: auto;
+        border-radius: 5px;
     }
 
-    .view-options .fa {
-        font-size: 20px;
-        padding: 2px;
-        padding-top: 4px;
-        margin: 0px;
-    }
-
-    .toolbar {
-        display: flex;
-        margin: 5px;
-        margin-bottom: 10px;
-        margin-top: 50px;
-        padding: 8px;
-        border: none;
-        display: none;
-    }
-
-    .toolbar button {
-        padding: 4px;
-    }
-
-    /* IMAGE LIST –––––––––––––––––––––––––––––––––––––––––––––––––– */
-    .image-list {
-      margin: 0px;
-      padding: 0px;
-    }
-
-    .image-list li {
-      box-shadow: none;
-      margin: 0px;
-      padding: 0px;
-    }
-
-    .image-list li:first-of-type {
+    .artikkelBoks:first-of-type {
         margin-top: 10vh;
     }
 
-    .image-list p {
-        text-align: left;
-        line-height: 20px;
-        margin-bottom: 10px;
-        padding: 20px;
-        padding-top: 10px;
-        font-size: 14px;
+    .artikkelBoks:last-of-type {
+        margin-bottom: 20vh;
     }
 
-    .image-list img {
+    .artikkelBoks p {
+        padding: 40px;
+        padding-top: 0px;
+    }
+
+    .artikkelBoks img {
+        width: 100%;
+        max-width: 400px;
         padding: 0px;
         margin: 0px;
+        border-radius: 10px;
     }
 
-    .image-list h2 {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 15px;
-        font-size: 28px;
-        text-align: left;
-    }
-
-
-    /* GRID VIEW –––––––––––––––––––––––––––––––––––––––––––––––––– */
-    .grid-view {
-      padding: 0px;
-      margin: 0px;
-      margin-left: 5px;
-      margin-right: 5px;
-      grid-gap: 10px;
-    }
-
-    .grid-view figcaption {
-        padding: 0px;
-    }
-
-    .grid-view li {
-        text-align: center;
-        margin-top: 5px;
-        padding: 0rem;
-
-    }
-
-    .grid-view li:hover {
-        transform: none;
-    }
-
-    .grid-view li img {
-    }
-
-
-
-    /* LIST VIEW –––––––––––––––––––––––––––––––––––––––––––––––––– */
-    .list-view li {
-      margin: auto;
-      margin-bottom: 5px;
-      margin-left: 5px;
-      margin-right: 5px;
-      height: 80px;
-      display: flex;
-      box-shadow: 2px 2px 10px 0px black;
-    }
-
-    .list-view li:hover p {
-        transform: none;
-        display: none;
-    }
-
-    .list-view li:hover {
-        transform: none;
-    }
-
-    .list-view h2 {
-        font-size: 18px;
-        line-height: 20px;
-        margin: 0px;
-        padding: 0px;
-        border-bottom: none;
-        margin-left: 15px;
-        margin-right: 10px;
-    }
-
-    .list-view p {
-        display: none;
-    }
-
-    .list-view figure {
-        display: flex;
-        align-items: center;
-    }
-
-    .list-view img {
-        border-bottom: none;
-        height: 70px;
-        margin-left: 5px;
-    }
-
-
-    .toolbar .search-wrapper .counter {
-        display: none;
-    }
-
-    .toolbar .view-options {
-        display: flex;
+    .artikkelBoks h2 {
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 20px;
     }
 
     .artikler_flex {

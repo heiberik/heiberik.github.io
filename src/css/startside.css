@@ -30,11 +30,11 @@
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
-    filter: brightness(30%);
-    -webkit-filter: brightness(30%);
-    -moz-filter: brightness(30%);
-    -o-filter: brightness(30%);
-    -ms-filter: brightness(30%);
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+    -moz-filter: brightness(40%);
+    -o-filter: brightness(40%);
+    -ms-filter: brightness(40%);
     position: absolute;
     z-index: -1;
 
@@ -54,8 +54,8 @@
 
 .forside_tekst {
     position: absolute;
-    bottom: 15vh;
-    left: 8vw;
+    bottom: 10vh;
+    left: 10vw;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -68,19 +68,20 @@
     font-size: 2.4rem;
     font-weight: 500;
     text-shadow: 2px 2px black;
-    line-height: 2.6rem;
+    line-height: 2.7rem;
+    text-align: left;
 }
 
 .forside_tittel {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
     text-shadow: 2px 2px black;
     text-align: left;
     margin: auto;
     margin-right: 0px;
     margin-top: 0px;
-    font-size: 2.6rem;
-    line-height: 2.6rem;
-    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 2.7rem;
+    font-weight: 500;
 }
 
 

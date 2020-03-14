@@ -8,177 +8,48 @@ import '../../css/artikler.css'
 import '../../css/input_range.css'
 
 
-class Artikler extends React.Component {
-
-    counter = 1;
-    active = "active";
-    listView = "list-view";
-    gridView = "grid-view";
-    dNone = "d-none";
-
-    constructor(props) {
-        super(props);
-        this.rangeInput = React.createRef()
-        this.imageList = React.createRef()
-        this.searchInput = React.createRef()
-        this.btnList = React.createRef()
-        this.btnListParent = React.createRef()
-        this.btnGrid = React.createRef()
-        this.btnGridParent = React.createRef()
-        this.counterTeller = React.createRef()
-        this.zoom = React.createRef()
-        this.imageListChildren = []
-        this.myArray = []
-    }
+const Artikler = () => {
+    return (
+        <>
+            <ArtikkelBoks />
+            <Footer/>
+        </>
+    )
+}
 
 
-    componentDidMount() {
-        this.imageListChildren = this.imageList.current.children
+const ArtikkelBoks = () => {
 
-        this.btnList.current.addEventListener("click", this.btnKlikkList, true)
-        this.btnGrid.current.addEventListener("click", this.btnKlikkGrid, true)
-        this.rangeInput.current.addEventListener("input", this.inputDrag, true)
+    return (
+        <div className="artikkelBeholder">
 
-        for (const child of this.imageListChildren) {
-            this.myArray.push({
-                id: this.counter++,
-                elem: child,
-                text: child.innerText.toLowerCase()
-            });
-        }
+            <Artikkel
+                bilde = {spaceBilde}
+                linkURL = "/artikler/mine-yndlingsfakta-om-universet"
+                overskrift = "Mine yndlingsfakta om universet"
+                beskrivelse = {"Hva skjer når Melkeveien kolliderer med galaksen Andromeda? " +
+                    "Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta om universet!"
+                }/>
 
-        this.counterTeller.current.textContent = this.imageListChildren.length;
-        this.searchInput.current.addEventListener("keyup", this.tastTrykk, true)
-    }
+        </div>
+    )
+}
 
 
-    tastTrykk = () => {
+const Artikkel = ({ bilde, overskrift, beskrivelse, linkURL}) => {
 
-        for (const item of this.imageListChildren) {
-            item.classList.add(this.dNone);
-        }
+    return (
+        <NavLink to={linkURL} style={{textDecoration:"none"}}>
+            <div className="artikkelBoks">
+                <img src={bilde} alt="bilde"></img>
+                <div>
+                    <h2>{overskrift}</h2>
+                    <p>{beskrivelse}</p>
+                </div>
+            </div>
+        </NavLink>
 
-        const text = this.searchInput.current.value.toLowerCase();
-        const filteredArray = this.myArray.filter(el => el.text.includes(text));
-
-        if (filteredArray.length > 0) {
-            for (const el of filteredArray) {
-                 el.elem.classList.remove(this.dNone);
-            }
-        }
-        this.counterTeller.current.textContent = filteredArray.length;
-    }
-
-
-    inputDrag = () => {
-        document.documentElement.style.setProperty("--minRangeValue",`${this.rangeInput.current.value}px`);
-    }
-
-    btnKlikkGrid = () => {
-        this.btnListParent.current.classList.remove(this.active);
-        this.btnGridParent.current.classList.add(this.active);
-        this.disabled = true;
-        this.btnList.current.disabled = false;
-        this.zoom.current.classList.remove(this.dNone);
-        this.imageList.current.classList.remove(this.listView);
-        this.imageList.current.classList.add(this.gridView);
-    }
-
-    btnKlikkList = () => {
-        this.btnGridParent.current.classList.remove(this.active);
-        this.btnListParent.current.classList.add(this.active);
-        this.disabled = true;
-        this.btnGrid.current.disabled = false;
-        this.zoom.current.classList.add(this.dNone);
-        this.imageList.current.classList.remove(this.gridView);
-        this.imageList.current.classList.add(this.listView);
-    }
-
-    render(){
-        return (
-            <>
-        		<section className="gallery">
-        			<div className="artikler-container">
-
-        			    <div className="toolbar">
-
-        			      	<div className="search-wrapper">
-        						<label htmlFor="sok_artikler" id="label_sok"></label>
-        						<input ref={this.searchInput} type="search" id="sok_artikler" aria-label="Søk etter artikler" placeholder="Søk etter artikkel"></input>
-        			        	<div className="counter">Antall artikler: <span ref={this.counterTeller}>0</span></div>
-        			      	</div>
-
-        			      	<ul className="view-options">
-        				        <li className="zoom" ref={this.zoom}>
-        				          <input type="range" ref={this.rangeInput} min="180" max="300" defaultValue="240"></input>
-        				        </li>
-        				        <li className="show-grid active" ref={this.btnGridParent}>
-        				          <button disabled ref={this.btnGrid} aria-label="grid">
-        				            <i className="fa fa-th"></i>
-        				          </button>
-        				        </li>
-        				        <li className="show-list" ref={this.btnListParent}>
-        				          <button aria-label="list" ref={this.btnList}>
-        				            <i className="fa fa-list"></i>
-        				          </button>
-        				      </li>
-        			      </ul>
-        			   </div>
-
-
-
-        			  	<ol className="image-list grid-view" ref={this.imageList}>
-
-        					<li>
-                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet" style={{textDecoration:"none"}}>
-            			        	<figure>
-            			          		<img src={spaceBilde} alt="space"></img>
-            			          		<figcaption>
-            							  	<h2>Mine yndlingsfakta om universet</h2>
-            					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
-            								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
-            								om universet!</p>
-            			          		</figcaption>
-            			        	</figure>
-                                </NavLink>
-        			      	</li>
-
-                            <li>
-                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet" style={{textDecoration:"none"}}>
-            			        	<figure>
-            			          		<img src={spaceBilde} alt="space"></img>
-            			          		<figcaption>
-            							  	<h2>Mine yndlingsfakta om universet</h2>
-            					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
-            								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
-            								om universet!</p>
-            			          		</figcaption>
-            			        	</figure>
-                                </NavLink>
-        			      	</li>
-
-                            <li>
-                                <NavLink to="/artikler/mine-yndlingsfakta-om-universet" style={{textDecoration:"none"}}>
-            			        	<figure>
-            			          		<img src={spaceBilde} alt="space"></img>
-            			          		<figcaption>
-            							  	<h2>Mine yndlingsfakta om universet</h2>
-            					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
-            								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
-            								om universet!</p>
-            			          		</figcaption>
-            			        	</figure>
-                                </NavLink>
-        			      	</li>
-
-        			    </ol>
-        			  </div>
-        			</section>
-
-                <Footer/>
-            </>
-        )
-    }
+    )
 }
 
 export default Artikler
