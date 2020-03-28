@@ -1,13 +1,13 @@
 import React from 'react'
 import '../../css/startside.css'
-import bakgrunn from '../../bilder/bak12.jpg'
 
-const Startside = () => {
+
+const Startside = ({ forsideBakgrunn }) => {
 
 
     return (
         <div style={{overflow:"hidden"}}>
-            <div className="forside" style={{backgroundImage: `url(${bakgrunn})`}}></div>
+            <div className="forside" style={{backgroundImage: `url(${forsideBakgrunn})`}}></div>
 
             <div className="forside_tekst">
                 <h1 className="forside_tittel">Henrik Heiberg</h1>

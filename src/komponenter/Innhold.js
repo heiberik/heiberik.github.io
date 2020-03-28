@@ -7,10 +7,13 @@ import Yndlingsfakta from './sider/artikler/Yndlingsfakta'
 import { Switch, Route } from 'react-router-dom'
 
 
-export default function Innhold(){
+const Innhold = ({ forsideBakgrunn }) => {
     return (
         <Switch>
-            <Route exact path='/' component={Startside}></Route>
+            <Route
+                exact path='/'
+                render={() => <Startside forsideBakgrunn={forsideBakgrunn} isAuthed={true} />}>
+            </Route>
             <Route exact path='/om-meg' render={props => <OmMeg />}></Route>
             <Route exact path='/artikler' component={Artikler}></Route>
             <Route exact path='/prosjekter' component={Prosjekter}></Route>
@@ -19,3 +22,5 @@ export default function Innhold(){
         </Switch>
     )
 }
+
+export default Innhold
