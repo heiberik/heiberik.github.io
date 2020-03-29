@@ -7,25 +7,38 @@ import '../../css/carousel.css'
 import bilde1 from '../../bilder/prosjekt1-mindre.jpg'
 import bilde2 from '../../bilder/prosjekt2.JPG'
 import bilde3 from '../../bilder/prosjekt3.JPG'
+import bilde4 from '../../bilder/prosjekt4.JPG'
 
 
 const Prosjekter = () => {
 
     return (
             <>
+                <Prosjekt
+                    navn = "Open Them Tabses"
+                    bildeURL={bilde4}
+                    stack = {["Chrome extensions", "HTML", "CSS", "JavaScript"]}
+                    kodeURL = "https://chrome.google.com/webstore/detail/open-them-tabses/jgdlnmkbjhebmaohkhphbdgcghoimnbh"
+                    kildeURL = "https://chrome.google.com/webstore/detail/open-them-tabses/jgdlnmkbjhebmaohkhphbdgcghoimnbh"
+                    beskrivelse = {
+                        "Min andre Google chrome extension. Open Them Tabses lar deg enkelt lagre " +
+                        "dine favorittsider i en eller flere grupper. Mange åpne tabs som må lagres? Fortvil ikke, " +
+                        "du kan lagre alle åpne tabs i en gruppe! Legge til eller fjerne en side fra en gruppe? " +
+                        "null problem! Åpne alle sidene samtidig? Åjada, du er kun ett klikk unna!"
+                    }/>
 
-            <Prosjekt
-                navn = "Ha Deg Vekk!"
-                bildeURL={bilde3}
-                stack = {["Chrome extensions", "HTML", "CSS", "JavaScript"]}
-                kodeURL = "https://github.com/heiberik/Ha-Deg-Vekk"
-                kildeURL = "https://chrome.google.com/webstore/detail/ha-deg-vekk/hmbfkgpomhdccagjoodoceidifmoanjn"
-                beskrivelse = {
-                    "Et første forsøk på sette sammen en Google Chrome Extension. " +
-                    "Applikasjonen filtrerer vekk nyhetsartikler basert på brukervalgte nøkkelord. " +
-                    "Største utfordring var å få til god flyt (message passing) mellom de ulike scriptene som kjører " +
-                    "i bakgrunnen."
-                }/>
+                <Prosjekt
+                    navn = "Ha Deg Vekk!"
+                    bildeURL={bilde3}
+                    stack = {["Chrome extensions", "HTML", "CSS", "JavaScript"]}
+                    kodeURL = "https://github.com/heiberik/Ha-Deg-Vekk"
+                    kildeURL = "https://chrome.google.com/webstore/detail/ha-deg-vekk/hmbfkgpomhdccagjoodoceidifmoanjn"
+                    beskrivelse = {
+                        "Et første forsøk på sette sammen en Google Chrome Extension. " +
+                        "Applikasjonen filtrerer vekk nyhetsartikler basert på brukervalgte nøkkelord. " +
+                        "Største utfordring var å få til god flyt (message passing) mellom de ulike scriptene som kjører " +
+                        "i bakgrunnen."
+                    }/>
 
 
                 <Prosjekt
@@ -45,7 +58,7 @@ const Prosjekter = () => {
 
 
                 <Prosjekt
-                    navn = "Portfolio / HTML"
+                    navn = "Portfolio"
                     bildeURL = {bilde1}
                     stack = {["HTML", "CSS", "JavaScript", "Netlify"]}
                     kodeURL = "https://github.com/heiberik/hjemmeside"
