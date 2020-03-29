@@ -1,29 +1,29 @@
 
 @keyframes fadeinFors {
     0%  { opacity: 0; }
-    30% { opacity: 0; }
-    100% { opacity: 1; }
+    20% { opacity: 0; }
+    80% { opacity: 1; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadeinFors {
     0%  { opacity: 0; }
-    30% { opacity: 0; }
-    100% { opacity: 1; }
+    20% { opacity: 0; }
+    80% { opacity: 1; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadeinFors {
     0%  { opacity: 0; }
-    30% { opacity: 0; }
-    100% { opacity: 1; }
+    20% { opacity: 0; }
+    80% { opacity: 1; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadeinFors {
     0%  { opacity: 0; }
-    30% { opacity: 0; }
-    100% { opacity: 1; }
+    20% { opacity: 0; }
+    80% { opacity: 1; }
 }
 
 
