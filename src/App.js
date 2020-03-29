@@ -5,7 +5,7 @@ import ScrollToTop from './komponenter/deler/ScrollToTop'
 import { BrowserRouter } from 'react-router-dom';
 import './css/hovedstiler.css'
 
-import bakgrunn from './bilder/bak12.jpg'
+
 
 export default function App() {
 
@@ -14,9 +14,7 @@ export default function App() {
           <BrowserRouter basename={process.env.PUBLIC_URL}>
             <ScrollToTop />
             <Navbar/>
-            <Innhold
-                forsideBakgrunn={bakgrunn}
-            />
+            <Innhold/>
           </BrowserRouter>
       </>
     )

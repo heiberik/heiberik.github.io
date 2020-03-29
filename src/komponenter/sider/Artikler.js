@@ -1,24 +1,24 @@
 import React from 'react'
 import Footer from '../deler/Footer'
 import { NavLink } from 'react-router-dom';
+import Img from 'react-image'
 
-import spaceBilde from '../../bilder/space.jpg'
 import '../../css/tekstbokser.css'
 import '../../css/artikler.css'
 import '../../css/input_range.css'
 
 
-const Artikler = () => {
+const Artikler = ({ bilde1 }) => {
     return (
         <>
-            <ArtikkelBoks />
+            <ArtikkelBoks spaceBilde={bilde1} />
             <Footer/>
         </>
     )
 }
 
 
-const ArtikkelBoks = () => {
+const ArtikkelBoks = ({ spaceBilde }) => {
 
     return (
         <div className="artikkelBeholder">
@@ -41,7 +41,7 @@ const Artikkel = ({ bilde, overskrift, beskrivelse, linkURL}) => {
     return (
         <NavLink to={linkURL} style={{textDecoration:"none"}}>
             <div className="artikkelBoks">
-                <img src={bilde} alt="bilde"></img>
+                <Img src={bilde} alt="bilde"/>
                 <div>
                     <h2>{overskrift}</h2>
                     <p>{beskrivelse}</p>

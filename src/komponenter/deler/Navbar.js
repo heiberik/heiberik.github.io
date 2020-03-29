@@ -1,7 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import '../../css/navbar.css'
-import logoBilde from '../../bilder/profil.jfif'
+
+import logoBilde from '../../bilder/profil.jpg'
 import listBilde from '../../bilder/list.svg'
 
 

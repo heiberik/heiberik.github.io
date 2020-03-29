@@ -1,18 +1,18 @@
 import React from 'react'
 import Footer from '../deler/Footer'
+import Img from 'react-image'
 
-import profilBilde from '../../bilder/profil.jfif'
 import '../../css/tekstbokser.css'
 import '../../css/timeline.css'
 
-const OmMeg = () => {
+const OmMeg = ({ profilBilde }) => {
     return (
         <>
             <div className="mal_innhold">
     			<section className="innhold">
     				<div className="tekstBoks">
 
-    					<img className="cv_profilbilde" src={profilBilde} alt="profil"></img>
+    					<Img className="cv_profilbilde" src={profilBilde} alt="profil"></Img>
 
     					<h2>Hvem er jeg?</h2>
     					<p>

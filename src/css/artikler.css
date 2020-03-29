@@ -115,6 +115,7 @@ sup {
 
 .artikkelBoks {
     width: 300px;
+    height: auto;
     background: rgb(9, 10, 11);
     background-image: linear-gradient(orange, orange, #FF6347);
     box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
@@ -122,11 +123,15 @@ sup {
     transition: 1s;
 }
 
+.artikkelBoks div {
+    padding: 0px 0px 0px;
+}
+
 .artikkelBoks:hover{
-    transform: scale(1.05);
 }
 
 .artikkelBoks img {
+
     border: .2rem solid orange;
     border-radius: 18px;
     border-bottom-left-radius: 10px;

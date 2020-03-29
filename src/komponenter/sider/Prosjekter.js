@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../deler/Footer'
+import Img from 'react-image'
 import '../../css/tekstbokser.css'
 import '../../css/prosjekter.css'
 import '../../css/carousel.css'
@@ -68,7 +69,7 @@ const Prosjekt = ({ bildeURL, navn, beskrivelse, stack, kodeURL, kildeURL }) => 
     return (
         <div className="prosjekter-grid">
             <div className="prosjekter-grid-kol-40">
-                <img src={bildeURL} alt="bilde"/>
+                <Img src={bildeURL} alt="bilde"/>
             </div>
             <div className="prosjekter-grid-kol-60">
                 <h2> {navn} </h2>
