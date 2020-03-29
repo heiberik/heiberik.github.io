@@ -3,15 +3,17 @@ import Footer from '../deler/Footer'
 import { NavLink } from 'react-router-dom';
 import Img from 'react-image'
 
+import spaceBilde from '../../bilder/space-liten.jpg'
+
 import '../../css/tekstbokser.css'
 import '../../css/artikler.css'
 import '../../css/input_range.css'
 
 
-const Artikler = ({ bilde1 }) => {
+const Artikler = () => {
     return (
         <>
-            <ArtikkelBoks spaceBilde={bilde1} />
+            <ArtikkelBoks spaceBilde={spaceBilde} />
             <Footer/>
         </>
     )

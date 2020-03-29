@@ -8,7 +8,7 @@ import { Switch, Route } from 'react-router-dom'
 
 import bakgrunnBilde from '../bilder/bak12-comp.jpg'
 import profilBilde from '../bilder/profil.jpg'
-import spaceBilde from '../bilder/space.jpg'
+
 
 
 const Innhold = () => {
@@ -24,7 +24,7 @@ const Innhold = () => {
             </Route>
             <Route
                 exact path='/artikler'
-                render={() => <Artikler bilde1={spaceBilde} isAuthed={true}/>}>
+                render={() => <Artikler isAuthed={true}/>}>
             </Route>
             <Route exact path='/prosjekter' component={Prosjekter}></Route>
             <Route exact path='/artikler/mine-yndlingsfakta-om-universet' component={Yndlingsfakta}></Route>
