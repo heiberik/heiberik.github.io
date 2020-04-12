@@ -97,10 +97,10 @@ const OmMeg = ({ profilBilde }) => {
 
 
     		<section className="innhold">
-    			<div className="timeline">
+    			<div className="timelineOmMeg">
 
-    	            <div className="container left">
-    			    	<div className="content">
+    	            <div className="containerB left">
+    			    	<div className="contentB">
     			      		<h3>2019 - </h3>
     	                    <h4>Universitetet i Oslo</h4>
     			      		<p className="p_timeline">
@@ -112,8 +112,8 @@ const OmMeg = ({ profilBilde }) => {
     			    	</div>
     			  	</div>
 
-    	            <div className="container right">
-    			    	<div className="content">
+    	            <div className="containerB rightB">
+    			    	<div className="contentB">
     			      	<h3>2018 - </h3>
     	                <h4>Universitetet i Oslo</h4>
     			      	<p className="p_timeline">
@@ -123,8 +123,8 @@ const OmMeg = ({ profilBilde }) => {
     			    	</div>
     			  	</div>
 
-    	            <div className="container left">
-    			    	<div className="content">
+    	            <div className="containerB left">
+    			    	<div className="contentB">
     			      		<h3>2017 - 2018</h3>
     	                    <h4>Advokatfirmaet Tveter og Kløvfjell</h4>
     			      		<p className="p_timeline">
@@ -135,8 +135,8 @@ const OmMeg = ({ profilBilde }) => {
     			    	</div>
     			  	</div>
 
-    	            <div className="container right">
-    			    	<div className="content">
+    	            <div className="containerB rightB">
+    			    	<div className="contentB">
     			      	<h3>2012 - 2017</h3>
     	                <h4>Universitetet i Oslo</h4>
     			      	<p className="p_timeline">
@@ -147,24 +147,24 @@ const OmMeg = ({ profilBilde }) => {
     			    	</div>
     			  	</div>
 
-    	            <div className="container left">
-    	                <div className="content">
+    	            <div className="containerB left">
+    	                <div className="contentB">
     	                    <h3>2011 - 2017</h3>
     	                    <h4>Kiwi</h4>
     	                    <p className="p_timeline">Butikkmedarbeider.</p>
     	                </div>
     	            </div>
 
-    	            <div className="container right">
-    			    	<div className="content">
+    	            <div className="containerB rightB">
+    			    	<div className="contentB">
     			      	<h3>2009 - 2011</h3>
     	                <h4>Kristelig Gymnasium</h4>
     			      	<p className="p_timeline">Studiespesialisering.</p>
     			    	</div>
     			  	</div>
 
-    	            <div className="container left">
-    			    	<div className="content">
+    	            <div className="containerB left">
+    			    	<div className="contentB">
     			      	<h3>1992  </h3>
     	                <h4>Aker Sykehus</h4>
     			      	<p className="p_timeline">Fødsel.</p>

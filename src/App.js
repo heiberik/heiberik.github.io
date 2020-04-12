@@ -4,6 +4,7 @@ import Innhold from './komponenter/Innhold'
 import ScrollToTop from './komponenter/deler/ScrollToTop'
 import { BrowserRouter } from 'react-router-dom';
 import './css/hovedstiler.css'
+import './css/tekstbokser.css'
 
 
 

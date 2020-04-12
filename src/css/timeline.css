@@ -1,4 +1,4 @@
-.timeline {
+.timelineOmMeg {
     position: relative;
     z-index: 1;
     margin: 0 auto;
@@ -6,7 +6,7 @@
 }
 
 /* The actual timeline (the vertical ruler) */
-.timeline::after {
+.timelineOmMeg::after {
     content: '';
     position: absolute;
     width: 6px;
@@ -19,7 +19,7 @@
 }
 
 /* Container around content */
-.container {
+.containerB {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
@@ -27,7 +27,7 @@
 }
 
 /* The circles on the timeline */
-.container::after {
+.containerB::after {
     content: '';
     position: absolute;
     width: 25px;
@@ -48,7 +48,7 @@
 }
 
 /* Place the container to the right */
-.right {
+.rightB {
     left: 50%;
     padding-right: 0;
 }
@@ -68,7 +68,7 @@
 }
 
 /* Add arrows to the right container (pointing left) */
-.right::before {
+.rightB::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -82,12 +82,12 @@
 }
 
 /* Fix the circle for containers on the right side */
-.right::after {
+.rightB::after {
     left: -16px;
 }
 
 /* The actual content */
-.content {
+.contentB {
     padding: 10px;
     padding-bottom: 10px;
     position: relative;
@@ -96,7 +96,7 @@
     box-shadow: 2px 2px 15px 1px black;
 }
 
-.content p {
+.contentB p {
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0px;
@@ -104,18 +104,18 @@
     text-align: left;
 }
 
-.content br {
+.contentB br {
     display: block; /* makes it have a width */
     content: ""; /* clears default height */
     margin-top: 2px; /* change this to whatever height you want it */
 }
 
-.content h4 {
+.contentB h4 {
     margin-top: 5px;
     color: orange;
 }
 
-.content h3 {
+.contentB h3 {
     font-size: 16px;
     line-height: 18px;
     letter-spacing: 0px;
